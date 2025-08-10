@@ -1,0 +1,29 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #1a1a2e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #16213e;
+    border: 2px solid #0f3460;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0f3460;
+}
