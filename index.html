@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ダンジョン英会話</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ダンジョン英会話</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="game-container">
-        <h1>🏰 ダンジョン英会話 🗡️</h1>
-        <div id="question-container">
-            <p id="question">Loading...</p>
-            <div id="options"></div>
+  <div class="game">
+    <div class="battlefield">
+      <img class="bg" src="images/background.png" alt="bg">
+      <div class="hp ui">
+        <div class="bar hero">
+          <span>勇者</span>
+          <div class="track"><div id="heroHpBar" class="fill" style="width:100%"></div></div>
         </div>
-        <div id="status">
-            <p id="score">スコア: 0</p>
-            <p id="progress">1 / 10</p>
+        <div class="bar monster">
+          <span>モンスター</span>
+          <div class="track"><div id="monsterHpBar" class="fill" style="width:100%"></div></div>
         </div>
+      </div>
+      <div class="sprites">
+        <img id="hero" class="hero" src="images/hero.png" alt="hero">
+        <img id="monster" class="monster" src="images/monster.png" alt="monster">
+        <img id="hit" class="hit hidden" src="images/hit-effect.png" alt="hit">
+      </div>
     </div>
-    <script src="script.js"></script>
+
+    <div class="panel">
+      <p id="question">Loading...</p>
+      <div id="choices" class="choices"></div>
+      <div class="tools">
+        <button id="dictBtn" class="ghost">この単語を調べる（Weblio）</button>
+      </div>
+    </div>
+
+    <div id="overlay" class="overlay hidden">
+      <div class="modal">
+        <h2 id="endTitle">結果</h2>
+        <p id="endDesc"></p>
+        <button id="restartBtn">もう一度</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

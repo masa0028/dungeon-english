@@ -1,52 +1,114 @@
-const questions = [
-    { word: "apple", options: ["りんご", "みかん", "バナナ", "ぶどう"], answer: "りんご" },
-    { word: "cat", options: ["犬", "ねこ", "うさぎ", "鳥"], answer: "ねこ" },
-    { word: "book", options: ["机", "椅子", "本", "ペン"], answer: "本" },
-    { word: "water", options: ["水", "火", "風", "土"], answer: "水" },
-    { word: "sun", options: ["月", "太陽", "星", "雲"], answer: "太陽" },
-    { word: "school", options: ["学校", "病院", "図書館", "駅"], answer: "学校" },
-    { word: "car", options: ["自転車", "バス", "車", "電車"], answer: "車" },
-    { word: "dog", options: ["犬", "ねこ", "うさぎ", "鳥"], answer: "犬" },
-    { word: "milk", options: ["牛乳", "水", "ジュース", "紅茶"], answer: "牛乳" },
-    { word: "fish", options: ["肉", "魚", "パン", "卵"], answer: "魚" }
+// Questions (10〜20問を簡単に拡張可能)
+const QUESTIONS = [
+  { word: "apple", answer: "りんご", choices: ["りんご","本","犬","月"] },
+  { word: "dog", answer: "犬", choices: ["猫","鳥","犬","魚"] },
+  { word: "book", answer: "本", choices: ["机","本","ノート","鉛筆"] },
+  { word: "milk", answer: "牛乳", choices: ["水","紅茶","牛乳","ジュース"] },
+  { word: "sun", answer: "太陽", choices: ["星","太陽","雲","雨"] },
+  { word: "school", answer: "学校", choices: ["図書館","学校","病院","駅"] },
+  { word: "car", answer: "車", choices: ["自転車","車","電車","バス"] },
+  { word: "fish", answer: "魚", choices: ["肉","卵","パン","魚"] },
+  { word: "water", answer: "水", choices: ["水","火","風","土"] },
+  { word: "bird", answer: "鳥", choices: ["犬","鳥","猫","牛"] },
+  { word: "pen", answer: "ペン", choices: ["ペン","消しゴム","定規","かばん"] },
+  { word: "music", answer: "音楽", choices: ["数学","音楽","理科","英語"] }
 ];
 
-let currentQuestionIndex = 0;
-let score = 0;
+let heroHp = 100;
+let monsterHp = 100;
+let qIndex = 0;
 
-const questionElement = document.getElementById("question");
-const optionsElement = document.getElementById("options");
-const scoreElement = document.getElementById("score");
-const progressElement = document.getElementById("progress");
+const hero = document.getElementById('hero');
+const monster = document.getElementById('monster');
+const hit = document.getElementById('hit');
+const heroHpBar = document.getElementById('heroHpBar');
+const monsterHpBar = document.getElementById('monsterHpBar');
 
-function showQuestion() {
-    const question = questions[currentQuestionIndex];
-    questionElement.textContent = `"${question.word}" の意味は？`;
-    optionsElement.innerHTML = "";
-    question.options.forEach(option => {
-        const button = document.createElement("button");
-        button.textContent = option;
-        button.onclick = () => selectAnswer(option);
-        optionsElement.appendChild(button);
-    });
-    progressElement.textContent = `${currentQuestionIndex + 1} / ${questions.length}`;
+const questionEl = document.getElementById('question');
+const choicesEl = document.getElementById('choices');
+const dictBtn = document.getElementById('dictBtn');
+
+const overlay = document.getElementById('overlay');
+const endTitle = document.getElementById('endTitle');
+const endDesc = document.getElementById('endDesc');
+const restartBtn = document.getElementById('restartBtn');
+
+function shuffle(arr){ return arr.map(v=>[Math.random(),v]).sort((a,b)=>a[0]-b[0]).map(v=>v[1]); }
+
+function nextQuestion(){
+  if(qIndex >= QUESTIONS.length || heroHp<=0 || monsterHp<=0){
+    endGame();
+    return;
+  }
+  const q = QUESTIONS[qIndex];
+  questionEl.textContent = `「${q.word}」の意味は？`;
+  choicesEl.innerHTML = '';
+  shuffle(q.choices).forEach(choice=>{
+    const btn = document.createElement('button');
+    btn.textContent = choice;
+    btn.onclick = ()=>select(choice);
+    choicesEl.appendChild(btn);
+  });
+  dictBtn.onclick = () => window.open('https://www.weblio.jp/content/'+encodeURIComponent(q.word),'_blank');
 }
 
-function selectAnswer(selected) {
-    const correct = questions[currentQuestionIndex].answer;
-    if (selected === correct) {
-        score += 10;
-        alert("正解！ダンジョンを進む！");
-    } else {
-        alert(`不正解… 正解は「${correct}」`);
-    }
-    scoreElement.textContent = `スコア: ${score}`;
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        showQuestion();
-    } else {
-        alert(`ゲームクリア！最終スコア: ${score}`);
-    }
+function setHpBars(){
+  heroHpBar.style.width = Math.max(heroHp,0) + '%';
+  monsterHpBar.style.width = Math.max(monsterHp,0) + '%';
 }
 
-showQuestion();
+function heroAttack(){
+  hero.classList.add('attack-hero');
+  hit.classList.remove('hidden'); hit.classList.add('slash');
+  setTimeout(()=>{ hit.classList.add('hidden'); hit.classList.remove('slash'); }, 320);
+  setTimeout(()=> hero.classList.remove('attack-hero'), 250);
+  monster.classList.add('shake');
+  setTimeout(()=> monster.classList.remove('shake'), 320);
+}
+
+function monsterAttack(){
+  monster.classList.add('attack-monster');
+  setTimeout(()=> monster.classList.remove('attack-monster'), 250);
+  hero.classList.add('shake');
+  setTimeout(()=> hero.classList.remove('shake'), 320);
+}
+
+function select(choice){
+  const q = QUESTIONS[qIndex];
+  const correct = q.answer;
+  if(choice === correct){
+    heroAttack();
+    monsterHp -= 20;
+  }else{
+    monsterAttack();
+    heroHp -= 20;
+  }
+  setHpBars();
+  qIndex++;
+  setTimeout(nextQuestion, 360);
+}
+
+function endGame(){
+  overlay.classList.remove('hidden');
+  if(monsterHp <= 0){
+    endTitle.textContent = '勝利！';
+    endDesc.textContent = 'モンスターを倒しました！';
+  }else if(heroHp <= 0){
+    endTitle.textContent = 'ゲームオーバー';
+    endDesc.textContent = '勇者は力尽きた…';
+  }else{
+    endTitle.textContent = '終了';
+    endDesc.textContent = '全ての問題に回答しました。';
+  }
+}
+
+restartBtn.onclick = () => {
+  heroHp = 100; monsterHp = 100; qIndex = 0;
+  setHpBars();
+  overlay.classList.add('hidden');
+  nextQuestion();
+};
+
+// init
+setHpBars();
+nextQuestion();
