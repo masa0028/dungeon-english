@@ -1,203 +1,203 @@
 [
   {
-    "question": "apple",
+    "question": "word1",
     "choices": [
-      "りんご",
+      "訳1",
       "ダミー1A",
       "ダミー1B",
       "ダミー1C"
     ],
-    "answer": "りんご"
+    "answer": "訳1"
   },
   {
-    "question": "dog",
+    "question": "word2",
     "choices": [
-      "犬",
+      "訳2",
       "ダミー2A",
       "ダミー2B",
       "ダミー2C"
     ],
-    "answer": "犬"
+    "answer": "訳2"
   },
   {
-    "question": "cat",
+    "question": "word3",
     "choices": [
-      "猫",
+      "訳3",
       "ダミー3A",
       "ダミー3B",
       "ダミー3C"
     ],
-    "answer": "猫"
+    "answer": "訳3"
   },
   {
-    "question": "bird",
+    "question": "word4",
     "choices": [
-      "鳥",
+      "訳4",
       "ダミー4A",
       "ダミー4B",
       "ダミー4C"
     ],
-    "answer": "鳥"
+    "answer": "訳4"
   },
   {
-    "question": "car",
+    "question": "word5",
     "choices": [
-      "車",
+      "訳5",
       "ダミー5A",
       "ダミー5B",
       "ダミー5C"
     ],
-    "answer": "車"
+    "answer": "訳5"
   },
   {
-    "question": "book",
+    "question": "word6",
     "choices": [
-      "本",
+      "訳6",
       "ダミー6A",
       "ダミー6B",
       "ダミー6C"
     ],
-    "answer": "本"
+    "answer": "訳6"
   },
   {
-    "question": "school",
+    "question": "word7",
     "choices": [
-      "学校",
+      "訳7",
       "ダミー7A",
       "ダミー7B",
       "ダミー7C"
     ],
-    "answer": "学校"
+    "answer": "訳7"
   },
   {
-    "question": "teacher",
+    "question": "word8",
     "choices": [
-      "先生",
+      "訳8",
       "ダミー8A",
       "ダミー8B",
       "ダミー8C"
     ],
-    "answer": "先生"
+    "answer": "訳8"
   },
   {
-    "question": "music",
+    "question": "word9",
     "choices": [
-      "音楽",
+      "訳9",
       "ダミー9A",
       "ダミー9B",
       "ダミー9C"
     ],
-    "answer": "音楽"
+    "answer": "訳9"
   },
   {
-    "question": "water",
+    "question": "word10",
     "choices": [
-      "水",
+      "訳10",
       "ダミー10A",
       "ダミー10B",
       "ダミー10C"
     ],
-    "answer": "水"
+    "answer": "訳10"
   },
   {
-    "question": "fire",
+    "question": "word11",
     "choices": [
-      "火",
+      "訳11",
       "ダミー11A",
       "ダミー11B",
       "ダミー11C"
     ],
-    "answer": "火"
+    "answer": "訳11"
   },
   {
-    "question": "flower",
+    "question": "word12",
     "choices": [
-      "花",
+      "訳12",
       "ダミー12A",
       "ダミー12B",
       "ダミー12C"
     ],
-    "answer": "花"
+    "answer": "訳12"
   },
   {
-    "question": "friend",
+    "question": "word13",
     "choices": [
-      "友達",
+      "訳13",
       "ダミー13A",
       "ダミー13B",
       "ダミー13C"
     ],
-    "answer": "友達"
+    "answer": "訳13"
   },
   {
-    "question": "family",
+    "question": "word14",
     "choices": [
-      "家族",
+      "訳14",
       "ダミー14A",
       "ダミー14B",
       "ダミー14C"
     ],
-    "answer": "家族"
+    "answer": "訳14"
   },
   {
-    "question": "summer",
+    "question": "word15",
     "choices": [
-      "夏",
+      "訳15",
       "ダミー15A",
       "ダミー15B",
       "ダミー15C"
     ],
-    "answer": "夏"
+    "answer": "訳15"
   },
   {
-    "question": "winter",
+    "question": "word16",
     "choices": [
-      "冬",
+      "訳16",
       "ダミー16A",
       "ダミー16B",
       "ダミー16C"
     ],
-    "answer": "冬"
+    "answer": "訳16"
   },
   {
-    "question": "spring",
+    "question": "word17",
     "choices": [
-      "春",
+      "訳17",
       "ダミー17A",
       "ダミー17B",
       "ダミー17C"
     ],
-    "answer": "春"
+    "answer": "訳17"
   },
   {
-    "question": "autumn",
+    "question": "word18",
     "choices": [
-      "秋",
+      "訳18",
       "ダミー18A",
       "ダミー18B",
       "ダミー18C"
     ],
-    "answer": "秋"
+    "answer": "訳18"
   },
   {
-    "question": "happy",
+    "question": "word19",
     "choices": [
-      "幸せ",
+      "訳19",
       "ダミー19A",
       "ダミー19B",
       "ダミー19C"
     ],
-    "answer": "幸せ"
+    "answer": "訳19"
   },
   {
-    "question": "sad",
+    "question": "word20",
     "choices": [
-      "悲しい",
+      "訳20",
       "ダミー20A",
       "ダミー20B",
       "ダミー20C"
     ],
-    "answer": "悲しい"
+    "answer": "訳20"
   },
   {
     "question": "word21",

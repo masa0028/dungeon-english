@@ -7,7 +7,6 @@ let monsterHp = 100;
 fetch("questions.json")
   .then(res => res.json())
   .then(data => {
-    // 200問からランダムで20問選ぶ
     questions = data.sort(() => 0.5 - Math.random()).slice(0, 20);
     showQuestion();
   });
