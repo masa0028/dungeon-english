@@ -1,2002 +1,2202 @@
 [
   {
-    "question": "word1",
+    "question": "apple",
+    "word": "apple",
     "choices": [
-      "訳1",
-      "ダミー1A",
-      "ダミー1B",
-      "ダミー1C"
+      "りんご",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳1"
+    "answer": "りんご"
   },
   {
-    "question": "word2",
+    "question": "dog",
+    "word": "dog",
     "choices": [
-      "訳2",
-      "ダミー2A",
-      "ダミー2B",
-      "ダミー2C"
+      "いぬ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳2"
+    "answer": "いぬ"
   },
   {
-    "question": "word3",
+    "question": "cat",
+    "word": "cat",
     "choices": [
-      "訳3",
-      "ダミー3A",
-      "ダミー3B",
-      "ダミー3C"
+      "ねこ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳3"
+    "answer": "ねこ"
   },
   {
-    "question": "word4",
+    "question": "school",
+    "word": "school",
     "choices": [
-      "訳4",
-      "ダミー4A",
-      "ダミー4B",
-      "ダミー4C"
+      "学校",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳4"
+    "answer": "学校"
   },
   {
-    "question": "word5",
+    "question": "teacher",
+    "word": "teacher",
     "choices": [
-      "訳5",
-      "ダミー5A",
-      "ダミー5B",
-      "ダミー5C"
+      "先生",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳5"
+    "answer": "先生"
   },
   {
-    "question": "word6",
+    "question": "run",
+    "word": "run",
     "choices": [
-      "訳6",
-      "ダミー6A",
-      "ダミー6B",
-      "ダミー6C"
+      "走る",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳6"
+    "answer": "走る"
   },
   {
-    "question": "word7",
+    "question": "walk",
+    "word": "walk",
     "choices": [
-      "訳7",
-      "ダミー7A",
-      "ダミー7B",
-      "ダミー7C"
+      "歩く",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳7"
+    "answer": "歩く"
   },
   {
-    "question": "word8",
+    "question": "swim",
+    "word": "swim",
     "choices": [
-      "訳8",
-      "ダミー8A",
-      "ダミー8B",
-      "ダミー8C"
+      "泳ぐ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳8"
+    "answer": "泳ぐ"
   },
   {
-    "question": "word9",
+    "question": "big",
+    "word": "big",
     "choices": [
-      "訳9",
-      "ダミー9A",
-      "ダミー9B",
-      "ダミー9C"
+      "大きい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳9"
+    "answer": "大きい"
   },
   {
-    "question": "word10",
+    "question": "small",
+    "word": "small",
     "choices": [
-      "訳10",
-      "ダミー10A",
-      "ダミー10B",
-      "ダミー10C"
+      "小さい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳10"
+    "answer": "小さい"
   },
   {
-    "question": "word11",
+    "question": "happy",
+    "word": "happy",
     "choices": [
-      "訳11",
-      "ダミー11A",
-      "ダミー11B",
-      "ダミー11C"
+      "うれしい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳11"
+    "answer": "うれしい"
   },
   {
-    "question": "word12",
+    "question": "sad",
+    "word": "sad",
     "choices": [
-      "訳12",
-      "ダミー12A",
-      "ダミー12B",
-      "ダミー12C"
+      "悲しい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳12"
+    "answer": "悲しい"
   },
   {
-    "question": "word13",
+    "question": "hot",
+    "word": "hot",
     "choices": [
-      "訳13",
-      "ダミー13A",
-      "ダミー13B",
-      "ダミー13C"
+      "暑い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳13"
+    "answer": "暑い"
   },
   {
-    "question": "word14",
+    "question": "cold",
+    "word": "cold",
     "choices": [
-      "訳14",
-      "ダミー14A",
-      "ダミー14B",
-      "ダミー14C"
+      "寒い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳14"
+    "answer": "寒い"
   },
   {
-    "question": "word15",
+    "question": "book",
+    "word": "book",
     "choices": [
-      "訳15",
-      "ダミー15A",
-      "ダミー15B",
-      "ダミー15C"
+      "本",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳15"
+    "answer": "本"
   },
   {
-    "question": "word16",
+    "question": "pen",
+    "word": "pen",
     "choices": [
-      "訳16",
-      "ダミー16A",
-      "ダミー16B",
-      "ダミー16C"
+      "ペン",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳16"
+    "answer": "ペン"
   },
   {
-    "question": "word17",
+    "question": "car",
+    "word": "car",
     "choices": [
-      "訳17",
-      "ダミー17A",
-      "ダミー17B",
-      "ダミー17C"
+      "車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳17"
+    "answer": "車"
   },
   {
-    "question": "word18",
+    "question": "train",
+    "word": "train",
     "choices": [
-      "訳18",
-      "ダミー18A",
-      "ダミー18B",
-      "ダミー18C"
+      "電車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳18"
+    "answer": "電車"
   },
   {
-    "question": "word19",
+    "question": "house",
+    "word": "house",
     "choices": [
-      "訳19",
-      "ダミー19A",
-      "ダミー19B",
-      "ダミー19C"
+      "家",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳19"
+    "answer": "家"
   },
   {
-    "question": "word20",
+    "question": "friend",
+    "word": "friend",
     "choices": [
-      "訳20",
-      "ダミー20A",
-      "ダミー20B",
-      "ダミー20C"
+      "友だち",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳20"
+    "answer": "友だち"
   },
   {
-    "question": "word21",
+    "question": "apple",
+    "word": "apple",
     "choices": [
-      "訳21",
-      "ダミー21A",
-      "ダミー21B",
-      "ダミー21C"
+      "りんご",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳21"
+    "answer": "りんご"
   },
   {
-    "question": "word22",
+    "question": "dog",
+    "word": "dog",
     "choices": [
-      "訳22",
-      "ダミー22A",
-      "ダミー22B",
-      "ダミー22C"
+      "いぬ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳22"
+    "answer": "いぬ"
   },
   {
-    "question": "word23",
+    "question": "cat",
+    "word": "cat",
     "choices": [
-      "訳23",
-      "ダミー23A",
-      "ダミー23B",
-      "ダミー23C"
+      "ねこ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳23"
+    "answer": "ねこ"
   },
   {
-    "question": "word24",
+    "question": "school",
+    "word": "school",
     "choices": [
-      "訳24",
-      "ダミー24A",
-      "ダミー24B",
-      "ダミー24C"
+      "学校",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳24"
+    "answer": "学校"
   },
   {
-    "question": "word25",
+    "question": "teacher",
+    "word": "teacher",
     "choices": [
-      "訳25",
-      "ダミー25A",
-      "ダミー25B",
-      "ダミー25C"
+      "先生",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳25"
+    "answer": "先生"
   },
   {
-    "question": "word26",
+    "question": "run",
+    "word": "run",
     "choices": [
-      "訳26",
-      "ダミー26A",
-      "ダミー26B",
-      "ダミー26C"
+      "走る",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳26"
+    "answer": "走る"
   },
   {
-    "question": "word27",
+    "question": "walk",
+    "word": "walk",
     "choices": [
-      "訳27",
-      "ダミー27A",
-      "ダミー27B",
-      "ダミー27C"
+      "歩く",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳27"
+    "answer": "歩く"
   },
   {
-    "question": "word28",
+    "question": "swim",
+    "word": "swim",
     "choices": [
-      "訳28",
-      "ダミー28A",
-      "ダミー28B",
-      "ダミー28C"
+      "泳ぐ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳28"
+    "answer": "泳ぐ"
   },
   {
-    "question": "word29",
+    "question": "big",
+    "word": "big",
     "choices": [
-      "訳29",
-      "ダミー29A",
-      "ダミー29B",
-      "ダミー29C"
+      "大きい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳29"
+    "answer": "大きい"
   },
   {
-    "question": "word30",
+    "question": "small",
+    "word": "small",
     "choices": [
-      "訳30",
-      "ダミー30A",
-      "ダミー30B",
-      "ダミー30C"
+      "小さい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳30"
+    "answer": "小さい"
   },
   {
-    "question": "word31",
+    "question": "happy",
+    "word": "happy",
     "choices": [
-      "訳31",
-      "ダミー31A",
-      "ダミー31B",
-      "ダミー31C"
+      "うれしい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳31"
+    "answer": "うれしい"
   },
   {
-    "question": "word32",
+    "question": "sad",
+    "word": "sad",
     "choices": [
-      "訳32",
-      "ダミー32A",
-      "ダミー32B",
-      "ダミー32C"
+      "悲しい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳32"
+    "answer": "悲しい"
   },
   {
-    "question": "word33",
+    "question": "hot",
+    "word": "hot",
     "choices": [
-      "訳33",
-      "ダミー33A",
-      "ダミー33B",
-      "ダミー33C"
+      "暑い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳33"
+    "answer": "暑い"
   },
   {
-    "question": "word34",
+    "question": "cold",
+    "word": "cold",
     "choices": [
-      "訳34",
-      "ダミー34A",
-      "ダミー34B",
-      "ダミー34C"
+      "寒い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳34"
+    "answer": "寒い"
   },
   {
-    "question": "word35",
+    "question": "book",
+    "word": "book",
     "choices": [
-      "訳35",
-      "ダミー35A",
-      "ダミー35B",
-      "ダミー35C"
+      "本",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳35"
+    "answer": "本"
   },
   {
-    "question": "word36",
+    "question": "pen",
+    "word": "pen",
     "choices": [
-      "訳36",
-      "ダミー36A",
-      "ダミー36B",
-      "ダミー36C"
+      "ペン",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳36"
+    "answer": "ペン"
   },
   {
-    "question": "word37",
+    "question": "car",
+    "word": "car",
     "choices": [
-      "訳37",
-      "ダミー37A",
-      "ダミー37B",
-      "ダミー37C"
+      "車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳37"
+    "answer": "車"
   },
   {
-    "question": "word38",
+    "question": "train",
+    "word": "train",
     "choices": [
-      "訳38",
-      "ダミー38A",
-      "ダミー38B",
-      "ダミー38C"
+      "電車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳38"
+    "answer": "電車"
   },
   {
-    "question": "word39",
+    "question": "house",
+    "word": "house",
     "choices": [
-      "訳39",
-      "ダミー39A",
-      "ダミー39B",
-      "ダミー39C"
+      "家",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳39"
+    "answer": "家"
   },
   {
-    "question": "word40",
+    "question": "friend",
+    "word": "friend",
     "choices": [
-      "訳40",
-      "ダミー40A",
-      "ダミー40B",
-      "ダミー40C"
+      "友だち",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳40"
+    "answer": "友だち"
   },
   {
-    "question": "word41",
+    "question": "apple",
+    "word": "apple",
     "choices": [
-      "訳41",
-      "ダミー41A",
-      "ダミー41B",
-      "ダミー41C"
+      "りんご",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳41"
+    "answer": "りんご"
   },
   {
-    "question": "word42",
+    "question": "dog",
+    "word": "dog",
     "choices": [
-      "訳42",
-      "ダミー42A",
-      "ダミー42B",
-      "ダミー42C"
+      "いぬ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳42"
+    "answer": "いぬ"
   },
   {
-    "question": "word43",
+    "question": "cat",
+    "word": "cat",
     "choices": [
-      "訳43",
-      "ダミー43A",
-      "ダミー43B",
-      "ダミー43C"
+      "ねこ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳43"
+    "answer": "ねこ"
   },
   {
-    "question": "word44",
+    "question": "school",
+    "word": "school",
     "choices": [
-      "訳44",
-      "ダミー44A",
-      "ダミー44B",
-      "ダミー44C"
+      "学校",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳44"
+    "answer": "学校"
   },
   {
-    "question": "word45",
+    "question": "teacher",
+    "word": "teacher",
     "choices": [
-      "訳45",
-      "ダミー45A",
-      "ダミー45B",
-      "ダミー45C"
+      "先生",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳45"
+    "answer": "先生"
   },
   {
-    "question": "word46",
+    "question": "run",
+    "word": "run",
     "choices": [
-      "訳46",
-      "ダミー46A",
-      "ダミー46B",
-      "ダミー46C"
+      "走る",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳46"
+    "answer": "走る"
   },
   {
-    "question": "word47",
+    "question": "walk",
+    "word": "walk",
     "choices": [
-      "訳47",
-      "ダミー47A",
-      "ダミー47B",
-      "ダミー47C"
+      "歩く",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳47"
+    "answer": "歩く"
   },
   {
-    "question": "word48",
+    "question": "swim",
+    "word": "swim",
     "choices": [
-      "訳48",
-      "ダミー48A",
-      "ダミー48B",
-      "ダミー48C"
+      "泳ぐ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳48"
+    "answer": "泳ぐ"
   },
   {
-    "question": "word49",
+    "question": "big",
+    "word": "big",
     "choices": [
-      "訳49",
-      "ダミー49A",
-      "ダミー49B",
-      "ダミー49C"
+      "大きい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳49"
+    "answer": "大きい"
   },
   {
-    "question": "word50",
+    "question": "small",
+    "word": "small",
     "choices": [
-      "訳50",
-      "ダミー50A",
-      "ダミー50B",
-      "ダミー50C"
+      "小さい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳50"
+    "answer": "小さい"
   },
   {
-    "question": "word51",
+    "question": "happy",
+    "word": "happy",
     "choices": [
-      "訳51",
-      "ダミー51A",
-      "ダミー51B",
-      "ダミー51C"
+      "うれしい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳51"
+    "answer": "うれしい"
   },
   {
-    "question": "word52",
+    "question": "sad",
+    "word": "sad",
     "choices": [
-      "訳52",
-      "ダミー52A",
-      "ダミー52B",
-      "ダミー52C"
+      "悲しい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳52"
+    "answer": "悲しい"
   },
   {
-    "question": "word53",
+    "question": "hot",
+    "word": "hot",
     "choices": [
-      "訳53",
-      "ダミー53A",
-      "ダミー53B",
-      "ダミー53C"
+      "暑い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳53"
+    "answer": "暑い"
   },
   {
-    "question": "word54",
+    "question": "cold",
+    "word": "cold",
     "choices": [
-      "訳54",
-      "ダミー54A",
-      "ダミー54B",
-      "ダミー54C"
+      "寒い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳54"
+    "answer": "寒い"
   },
   {
-    "question": "word55",
+    "question": "book",
+    "word": "book",
     "choices": [
-      "訳55",
-      "ダミー55A",
-      "ダミー55B",
-      "ダミー55C"
+      "本",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳55"
+    "answer": "本"
   },
   {
-    "question": "word56",
+    "question": "pen",
+    "word": "pen",
     "choices": [
-      "訳56",
-      "ダミー56A",
-      "ダミー56B",
-      "ダミー56C"
+      "ペン",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳56"
+    "answer": "ペン"
   },
   {
-    "question": "word57",
+    "question": "car",
+    "word": "car",
     "choices": [
-      "訳57",
-      "ダミー57A",
-      "ダミー57B",
-      "ダミー57C"
+      "車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳57"
+    "answer": "車"
   },
   {
-    "question": "word58",
+    "question": "train",
+    "word": "train",
     "choices": [
-      "訳58",
-      "ダミー58A",
-      "ダミー58B",
-      "ダミー58C"
+      "電車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳58"
+    "answer": "電車"
   },
   {
-    "question": "word59",
+    "question": "house",
+    "word": "house",
     "choices": [
-      "訳59",
-      "ダミー59A",
-      "ダミー59B",
-      "ダミー59C"
+      "家",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳59"
+    "answer": "家"
   },
   {
-    "question": "word60",
+    "question": "friend",
+    "word": "friend",
     "choices": [
-      "訳60",
-      "ダミー60A",
-      "ダミー60B",
-      "ダミー60C"
+      "友だち",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳60"
+    "answer": "友だち"
   },
   {
-    "question": "word61",
+    "question": "apple",
+    "word": "apple",
     "choices": [
-      "訳61",
-      "ダミー61A",
-      "ダミー61B",
-      "ダミー61C"
+      "りんご",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳61"
+    "answer": "りんご"
   },
   {
-    "question": "word62",
+    "question": "dog",
+    "word": "dog",
     "choices": [
-      "訳62",
-      "ダミー62A",
-      "ダミー62B",
-      "ダミー62C"
+      "いぬ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳62"
+    "answer": "いぬ"
   },
   {
-    "question": "word63",
+    "question": "cat",
+    "word": "cat",
     "choices": [
-      "訳63",
-      "ダミー63A",
-      "ダミー63B",
-      "ダミー63C"
+      "ねこ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳63"
+    "answer": "ねこ"
   },
   {
-    "question": "word64",
+    "question": "school",
+    "word": "school",
     "choices": [
-      "訳64",
-      "ダミー64A",
-      "ダミー64B",
-      "ダミー64C"
+      "学校",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳64"
+    "answer": "学校"
   },
   {
-    "question": "word65",
+    "question": "teacher",
+    "word": "teacher",
     "choices": [
-      "訳65",
-      "ダミー65A",
-      "ダミー65B",
-      "ダミー65C"
+      "先生",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳65"
+    "answer": "先生"
   },
   {
-    "question": "word66",
+    "question": "run",
+    "word": "run",
     "choices": [
-      "訳66",
-      "ダミー66A",
-      "ダミー66B",
-      "ダミー66C"
+      "走る",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳66"
+    "answer": "走る"
   },
   {
-    "question": "word67",
+    "question": "walk",
+    "word": "walk",
     "choices": [
-      "訳67",
-      "ダミー67A",
-      "ダミー67B",
-      "ダミー67C"
+      "歩く",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳67"
+    "answer": "歩く"
   },
   {
-    "question": "word68",
+    "question": "swim",
+    "word": "swim",
     "choices": [
-      "訳68",
-      "ダミー68A",
-      "ダミー68B",
-      "ダミー68C"
+      "泳ぐ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳68"
+    "answer": "泳ぐ"
   },
   {
-    "question": "word69",
+    "question": "big",
+    "word": "big",
     "choices": [
-      "訳69",
-      "ダミー69A",
-      "ダミー69B",
-      "ダミー69C"
+      "大きい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳69"
+    "answer": "大きい"
   },
   {
-    "question": "word70",
+    "question": "small",
+    "word": "small",
     "choices": [
-      "訳70",
-      "ダミー70A",
-      "ダミー70B",
-      "ダミー70C"
+      "小さい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳70"
+    "answer": "小さい"
   },
   {
-    "question": "word71",
+    "question": "happy",
+    "word": "happy",
     "choices": [
-      "訳71",
-      "ダミー71A",
-      "ダミー71B",
-      "ダミー71C"
+      "うれしい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳71"
+    "answer": "うれしい"
   },
   {
-    "question": "word72",
+    "question": "sad",
+    "word": "sad",
     "choices": [
-      "訳72",
-      "ダミー72A",
-      "ダミー72B",
-      "ダミー72C"
+      "悲しい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳72"
+    "answer": "悲しい"
   },
   {
-    "question": "word73",
+    "question": "hot",
+    "word": "hot",
     "choices": [
-      "訳73",
-      "ダミー73A",
-      "ダミー73B",
-      "ダミー73C"
+      "暑い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳73"
+    "answer": "暑い"
   },
   {
-    "question": "word74",
+    "question": "cold",
+    "word": "cold",
     "choices": [
-      "訳74",
-      "ダミー74A",
-      "ダミー74B",
-      "ダミー74C"
+      "寒い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳74"
+    "answer": "寒い"
   },
   {
-    "question": "word75",
+    "question": "book",
+    "word": "book",
     "choices": [
-      "訳75",
-      "ダミー75A",
-      "ダミー75B",
-      "ダミー75C"
+      "本",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳75"
+    "answer": "本"
   },
   {
-    "question": "word76",
+    "question": "pen",
+    "word": "pen",
     "choices": [
-      "訳76",
-      "ダミー76A",
-      "ダミー76B",
-      "ダミー76C"
+      "ペン",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳76"
+    "answer": "ペン"
   },
   {
-    "question": "word77",
+    "question": "car",
+    "word": "car",
     "choices": [
-      "訳77",
-      "ダミー77A",
-      "ダミー77B",
-      "ダミー77C"
+      "車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳77"
+    "answer": "車"
   },
   {
-    "question": "word78",
+    "question": "train",
+    "word": "train",
     "choices": [
-      "訳78",
-      "ダミー78A",
-      "ダミー78B",
-      "ダミー78C"
+      "電車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳78"
+    "answer": "電車"
   },
   {
-    "question": "word79",
+    "question": "house",
+    "word": "house",
     "choices": [
-      "訳79",
-      "ダミー79A",
-      "ダミー79B",
-      "ダミー79C"
+      "家",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳79"
+    "answer": "家"
   },
   {
-    "question": "word80",
+    "question": "friend",
+    "word": "friend",
     "choices": [
-      "訳80",
-      "ダミー80A",
-      "ダミー80B",
-      "ダミー80C"
+      "友だち",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳80"
+    "answer": "友だち"
   },
   {
-    "question": "word81",
+    "question": "apple",
+    "word": "apple",
     "choices": [
-      "訳81",
-      "ダミー81A",
-      "ダミー81B",
-      "ダミー81C"
+      "りんご",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳81"
+    "answer": "りんご"
   },
   {
-    "question": "word82",
+    "question": "dog",
+    "word": "dog",
     "choices": [
-      "訳82",
-      "ダミー82A",
-      "ダミー82B",
-      "ダミー82C"
+      "いぬ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳82"
+    "answer": "いぬ"
   },
   {
-    "question": "word83",
+    "question": "cat",
+    "word": "cat",
     "choices": [
-      "訳83",
-      "ダミー83A",
-      "ダミー83B",
-      "ダミー83C"
+      "ねこ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳83"
+    "answer": "ねこ"
   },
   {
-    "question": "word84",
+    "question": "school",
+    "word": "school",
     "choices": [
-      "訳84",
-      "ダミー84A",
-      "ダミー84B",
-      "ダミー84C"
+      "学校",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳84"
+    "answer": "学校"
   },
   {
-    "question": "word85",
+    "question": "teacher",
+    "word": "teacher",
     "choices": [
-      "訳85",
-      "ダミー85A",
-      "ダミー85B",
-      "ダミー85C"
+      "先生",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳85"
+    "answer": "先生"
   },
   {
-    "question": "word86",
+    "question": "run",
+    "word": "run",
     "choices": [
-      "訳86",
-      "ダミー86A",
-      "ダミー86B",
-      "ダミー86C"
+      "走る",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳86"
+    "answer": "走る"
   },
   {
-    "question": "word87",
+    "question": "walk",
+    "word": "walk",
     "choices": [
-      "訳87",
-      "ダミー87A",
-      "ダミー87B",
-      "ダミー87C"
+      "歩く",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳87"
+    "answer": "歩く"
   },
   {
-    "question": "word88",
+    "question": "swim",
+    "word": "swim",
     "choices": [
-      "訳88",
-      "ダミー88A",
-      "ダミー88B",
-      "ダミー88C"
+      "泳ぐ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳88"
+    "answer": "泳ぐ"
   },
   {
-    "question": "word89",
+    "question": "big",
+    "word": "big",
     "choices": [
-      "訳89",
-      "ダミー89A",
-      "ダミー89B",
-      "ダミー89C"
+      "大きい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳89"
+    "answer": "大きい"
   },
   {
-    "question": "word90",
+    "question": "small",
+    "word": "small",
     "choices": [
-      "訳90",
-      "ダミー90A",
-      "ダミー90B",
-      "ダミー90C"
+      "小さい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳90"
+    "answer": "小さい"
   },
   {
-    "question": "word91",
+    "question": "happy",
+    "word": "happy",
     "choices": [
-      "訳91",
-      "ダミー91A",
-      "ダミー91B",
-      "ダミー91C"
+      "うれしい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳91"
+    "answer": "うれしい"
   },
   {
-    "question": "word92",
+    "question": "sad",
+    "word": "sad",
     "choices": [
-      "訳92",
-      "ダミー92A",
-      "ダミー92B",
-      "ダミー92C"
+      "悲しい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳92"
+    "answer": "悲しい"
   },
   {
-    "question": "word93",
+    "question": "hot",
+    "word": "hot",
     "choices": [
-      "訳93",
-      "ダミー93A",
-      "ダミー93B",
-      "ダミー93C"
+      "暑い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳93"
+    "answer": "暑い"
   },
   {
-    "question": "word94",
+    "question": "cold",
+    "word": "cold",
     "choices": [
-      "訳94",
-      "ダミー94A",
-      "ダミー94B",
-      "ダミー94C"
+      "寒い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳94"
+    "answer": "寒い"
   },
   {
-    "question": "word95",
+    "question": "book",
+    "word": "book",
     "choices": [
-      "訳95",
-      "ダミー95A",
-      "ダミー95B",
-      "ダミー95C"
+      "本",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳95"
+    "answer": "本"
   },
   {
-    "question": "word96",
+    "question": "pen",
+    "word": "pen",
     "choices": [
-      "訳96",
-      "ダミー96A",
-      "ダミー96B",
-      "ダミー96C"
+      "ペン",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳96"
+    "answer": "ペン"
   },
   {
-    "question": "word97",
+    "question": "car",
+    "word": "car",
     "choices": [
-      "訳97",
-      "ダミー97A",
-      "ダミー97B",
-      "ダミー97C"
+      "車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳97"
+    "answer": "車"
   },
   {
-    "question": "word98",
+    "question": "train",
+    "word": "train",
     "choices": [
-      "訳98",
-      "ダミー98A",
-      "ダミー98B",
-      "ダミー98C"
+      "電車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳98"
+    "answer": "電車"
   },
   {
-    "question": "word99",
+    "question": "house",
+    "word": "house",
     "choices": [
-      "訳99",
-      "ダミー99A",
-      "ダミー99B",
-      "ダミー99C"
+      "家",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳99"
+    "answer": "家"
   },
   {
-    "question": "word100",
+    "question": "friend",
+    "word": "friend",
     "choices": [
-      "訳100",
-      "ダミー100A",
-      "ダミー100B",
-      "ダミー100C"
+      "友だち",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳100"
+    "answer": "友だち"
   },
   {
-    "question": "word101",
+    "question": "apple",
+    "word": "apple",
     "choices": [
-      "訳101",
-      "ダミー101A",
-      "ダミー101B",
-      "ダミー101C"
+      "りんご",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳101"
+    "answer": "りんご"
   },
   {
-    "question": "word102",
+    "question": "dog",
+    "word": "dog",
     "choices": [
-      "訳102",
-      "ダミー102A",
-      "ダミー102B",
-      "ダミー102C"
+      "いぬ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳102"
+    "answer": "いぬ"
   },
   {
-    "question": "word103",
+    "question": "cat",
+    "word": "cat",
     "choices": [
-      "訳103",
-      "ダミー103A",
-      "ダミー103B",
-      "ダミー103C"
+      "ねこ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳103"
+    "answer": "ねこ"
   },
   {
-    "question": "word104",
+    "question": "school",
+    "word": "school",
     "choices": [
-      "訳104",
-      "ダミー104A",
-      "ダミー104B",
-      "ダミー104C"
+      "学校",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳104"
+    "answer": "学校"
   },
   {
-    "question": "word105",
+    "question": "teacher",
+    "word": "teacher",
     "choices": [
-      "訳105",
-      "ダミー105A",
-      "ダミー105B",
-      "ダミー105C"
+      "先生",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳105"
+    "answer": "先生"
   },
   {
-    "question": "word106",
+    "question": "run",
+    "word": "run",
     "choices": [
-      "訳106",
-      "ダミー106A",
-      "ダミー106B",
-      "ダミー106C"
+      "走る",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳106"
+    "answer": "走る"
   },
   {
-    "question": "word107",
+    "question": "walk",
+    "word": "walk",
     "choices": [
-      "訳107",
-      "ダミー107A",
-      "ダミー107B",
-      "ダミー107C"
+      "歩く",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳107"
+    "answer": "歩く"
   },
   {
-    "question": "word108",
+    "question": "swim",
+    "word": "swim",
     "choices": [
-      "訳108",
-      "ダミー108A",
-      "ダミー108B",
-      "ダミー108C"
+      "泳ぐ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳108"
+    "answer": "泳ぐ"
   },
   {
-    "question": "word109",
+    "question": "big",
+    "word": "big",
     "choices": [
-      "訳109",
-      "ダミー109A",
-      "ダミー109B",
-      "ダミー109C"
+      "大きい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳109"
+    "answer": "大きい"
   },
   {
-    "question": "word110",
+    "question": "small",
+    "word": "small",
     "choices": [
-      "訳110",
-      "ダミー110A",
-      "ダミー110B",
-      "ダミー110C"
+      "小さい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳110"
+    "answer": "小さい"
   },
   {
-    "question": "word111",
+    "question": "happy",
+    "word": "happy",
     "choices": [
-      "訳111",
-      "ダミー111A",
-      "ダミー111B",
-      "ダミー111C"
+      "うれしい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳111"
+    "answer": "うれしい"
   },
   {
-    "question": "word112",
+    "question": "sad",
+    "word": "sad",
     "choices": [
-      "訳112",
-      "ダミー112A",
-      "ダミー112B",
-      "ダミー112C"
+      "悲しい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳112"
+    "answer": "悲しい"
   },
   {
-    "question": "word113",
+    "question": "hot",
+    "word": "hot",
     "choices": [
-      "訳113",
-      "ダミー113A",
-      "ダミー113B",
-      "ダミー113C"
+      "暑い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳113"
+    "answer": "暑い"
   },
   {
-    "question": "word114",
+    "question": "cold",
+    "word": "cold",
     "choices": [
-      "訳114",
-      "ダミー114A",
-      "ダミー114B",
-      "ダミー114C"
+      "寒い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳114"
+    "answer": "寒い"
   },
   {
-    "question": "word115",
+    "question": "book",
+    "word": "book",
     "choices": [
-      "訳115",
-      "ダミー115A",
-      "ダミー115B",
-      "ダミー115C"
+      "本",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳115"
+    "answer": "本"
   },
   {
-    "question": "word116",
+    "question": "pen",
+    "word": "pen",
     "choices": [
-      "訳116",
-      "ダミー116A",
-      "ダミー116B",
-      "ダミー116C"
+      "ペン",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳116"
+    "answer": "ペン"
   },
   {
-    "question": "word117",
+    "question": "car",
+    "word": "car",
     "choices": [
-      "訳117",
-      "ダミー117A",
-      "ダミー117B",
-      "ダミー117C"
+      "車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳117"
+    "answer": "車"
   },
   {
-    "question": "word118",
+    "question": "train",
+    "word": "train",
     "choices": [
-      "訳118",
-      "ダミー118A",
-      "ダミー118B",
-      "ダミー118C"
+      "電車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳118"
+    "answer": "電車"
   },
   {
-    "question": "word119",
+    "question": "house",
+    "word": "house",
     "choices": [
-      "訳119",
-      "ダミー119A",
-      "ダミー119B",
-      "ダミー119C"
+      "家",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳119"
+    "answer": "家"
   },
   {
-    "question": "word120",
+    "question": "friend",
+    "word": "friend",
     "choices": [
-      "訳120",
-      "ダミー120A",
-      "ダミー120B",
-      "ダミー120C"
+      "友だち",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳120"
+    "answer": "友だち"
   },
   {
-    "question": "word121",
+    "question": "apple",
+    "word": "apple",
     "choices": [
-      "訳121",
-      "ダミー121A",
-      "ダミー121B",
-      "ダミー121C"
+      "りんご",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳121"
+    "answer": "りんご"
   },
   {
-    "question": "word122",
+    "question": "dog",
+    "word": "dog",
     "choices": [
-      "訳122",
-      "ダミー122A",
-      "ダミー122B",
-      "ダミー122C"
+      "いぬ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳122"
+    "answer": "いぬ"
   },
   {
-    "question": "word123",
+    "question": "cat",
+    "word": "cat",
     "choices": [
-      "訳123",
-      "ダミー123A",
-      "ダミー123B",
-      "ダミー123C"
+      "ねこ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳123"
+    "answer": "ねこ"
   },
   {
-    "question": "word124",
+    "question": "school",
+    "word": "school",
     "choices": [
-      "訳124",
-      "ダミー124A",
-      "ダミー124B",
-      "ダミー124C"
+      "学校",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳124"
+    "answer": "学校"
   },
   {
-    "question": "word125",
+    "question": "teacher",
+    "word": "teacher",
     "choices": [
-      "訳125",
-      "ダミー125A",
-      "ダミー125B",
-      "ダミー125C"
+      "先生",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳125"
+    "answer": "先生"
   },
   {
-    "question": "word126",
+    "question": "run",
+    "word": "run",
     "choices": [
-      "訳126",
-      "ダミー126A",
-      "ダミー126B",
-      "ダミー126C"
+      "走る",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳126"
+    "answer": "走る"
   },
   {
-    "question": "word127",
+    "question": "walk",
+    "word": "walk",
     "choices": [
-      "訳127",
-      "ダミー127A",
-      "ダミー127B",
-      "ダミー127C"
+      "歩く",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳127"
+    "answer": "歩く"
   },
   {
-    "question": "word128",
+    "question": "swim",
+    "word": "swim",
     "choices": [
-      "訳128",
-      "ダミー128A",
-      "ダミー128B",
-      "ダミー128C"
+      "泳ぐ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳128"
+    "answer": "泳ぐ"
   },
   {
-    "question": "word129",
+    "question": "big",
+    "word": "big",
     "choices": [
-      "訳129",
-      "ダミー129A",
-      "ダミー129B",
-      "ダミー129C"
+      "大きい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳129"
+    "answer": "大きい"
   },
   {
-    "question": "word130",
+    "question": "small",
+    "word": "small",
     "choices": [
-      "訳130",
-      "ダミー130A",
-      "ダミー130B",
-      "ダミー130C"
+      "小さい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳130"
+    "answer": "小さい"
   },
   {
-    "question": "word131",
+    "question": "happy",
+    "word": "happy",
     "choices": [
-      "訳131",
-      "ダミー131A",
-      "ダミー131B",
-      "ダミー131C"
+      "うれしい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳131"
+    "answer": "うれしい"
   },
   {
-    "question": "word132",
+    "question": "sad",
+    "word": "sad",
     "choices": [
-      "訳132",
-      "ダミー132A",
-      "ダミー132B",
-      "ダミー132C"
+      "悲しい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳132"
+    "answer": "悲しい"
   },
   {
-    "question": "word133",
+    "question": "hot",
+    "word": "hot",
     "choices": [
-      "訳133",
-      "ダミー133A",
-      "ダミー133B",
-      "ダミー133C"
+      "暑い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳133"
+    "answer": "暑い"
   },
   {
-    "question": "word134",
+    "question": "cold",
+    "word": "cold",
     "choices": [
-      "訳134",
-      "ダミー134A",
-      "ダミー134B",
-      "ダミー134C"
+      "寒い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳134"
+    "answer": "寒い"
   },
   {
-    "question": "word135",
+    "question": "book",
+    "word": "book",
     "choices": [
-      "訳135",
-      "ダミー135A",
-      "ダミー135B",
-      "ダミー135C"
+      "本",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳135"
+    "answer": "本"
   },
   {
-    "question": "word136",
+    "question": "pen",
+    "word": "pen",
     "choices": [
-      "訳136",
-      "ダミー136A",
-      "ダミー136B",
-      "ダミー136C"
+      "ペン",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳136"
+    "answer": "ペン"
   },
   {
-    "question": "word137",
+    "question": "car",
+    "word": "car",
     "choices": [
-      "訳137",
-      "ダミー137A",
-      "ダミー137B",
-      "ダミー137C"
+      "車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳137"
+    "answer": "車"
   },
   {
-    "question": "word138",
+    "question": "train",
+    "word": "train",
     "choices": [
-      "訳138",
-      "ダミー138A",
-      "ダミー138B",
-      "ダミー138C"
+      "電車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳138"
+    "answer": "電車"
   },
   {
-    "question": "word139",
+    "question": "house",
+    "word": "house",
     "choices": [
-      "訳139",
-      "ダミー139A",
-      "ダミー139B",
-      "ダミー139C"
+      "家",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳139"
+    "answer": "家"
   },
   {
-    "question": "word140",
+    "question": "friend",
+    "word": "friend",
     "choices": [
-      "訳140",
-      "ダミー140A",
-      "ダミー140B",
-      "ダミー140C"
+      "友だち",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳140"
+    "answer": "友だち"
   },
   {
-    "question": "word141",
+    "question": "apple",
+    "word": "apple",
     "choices": [
-      "訳141",
-      "ダミー141A",
-      "ダミー141B",
-      "ダミー141C"
+      "りんご",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳141"
+    "answer": "りんご"
   },
   {
-    "question": "word142",
+    "question": "dog",
+    "word": "dog",
     "choices": [
-      "訳142",
-      "ダミー142A",
-      "ダミー142B",
-      "ダミー142C"
+      "いぬ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳142"
+    "answer": "いぬ"
   },
   {
-    "question": "word143",
+    "question": "cat",
+    "word": "cat",
     "choices": [
-      "訳143",
-      "ダミー143A",
-      "ダミー143B",
-      "ダミー143C"
+      "ねこ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳143"
+    "answer": "ねこ"
   },
   {
-    "question": "word144",
+    "question": "school",
+    "word": "school",
     "choices": [
-      "訳144",
-      "ダミー144A",
-      "ダミー144B",
-      "ダミー144C"
+      "学校",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳144"
+    "answer": "学校"
   },
   {
-    "question": "word145",
+    "question": "teacher",
+    "word": "teacher",
     "choices": [
-      "訳145",
-      "ダミー145A",
-      "ダミー145B",
-      "ダミー145C"
+      "先生",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳145"
+    "answer": "先生"
   },
   {
-    "question": "word146",
+    "question": "run",
+    "word": "run",
     "choices": [
-      "訳146",
-      "ダミー146A",
-      "ダミー146B",
-      "ダミー146C"
+      "走る",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳146"
+    "answer": "走る"
   },
   {
-    "question": "word147",
+    "question": "walk",
+    "word": "walk",
     "choices": [
-      "訳147",
-      "ダミー147A",
-      "ダミー147B",
-      "ダミー147C"
+      "歩く",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳147"
+    "answer": "歩く"
   },
   {
-    "question": "word148",
+    "question": "swim",
+    "word": "swim",
     "choices": [
-      "訳148",
-      "ダミー148A",
-      "ダミー148B",
-      "ダミー148C"
+      "泳ぐ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳148"
+    "answer": "泳ぐ"
   },
   {
-    "question": "word149",
+    "question": "big",
+    "word": "big",
     "choices": [
-      "訳149",
-      "ダミー149A",
-      "ダミー149B",
-      "ダミー149C"
+      "大きい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳149"
+    "answer": "大きい"
   },
   {
-    "question": "word150",
+    "question": "small",
+    "word": "small",
     "choices": [
-      "訳150",
-      "ダミー150A",
-      "ダミー150B",
-      "ダミー150C"
+      "小さい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳150"
+    "answer": "小さい"
   },
   {
-    "question": "word151",
+    "question": "happy",
+    "word": "happy",
     "choices": [
-      "訳151",
-      "ダミー151A",
-      "ダミー151B",
-      "ダミー151C"
+      "うれしい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳151"
+    "answer": "うれしい"
   },
   {
-    "question": "word152",
+    "question": "sad",
+    "word": "sad",
     "choices": [
-      "訳152",
-      "ダミー152A",
-      "ダミー152B",
-      "ダミー152C"
+      "悲しい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳152"
+    "answer": "悲しい"
   },
   {
-    "question": "word153",
+    "question": "hot",
+    "word": "hot",
     "choices": [
-      "訳153",
-      "ダミー153A",
-      "ダミー153B",
-      "ダミー153C"
+      "暑い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳153"
+    "answer": "暑い"
   },
   {
-    "question": "word154",
+    "question": "cold",
+    "word": "cold",
     "choices": [
-      "訳154",
-      "ダミー154A",
-      "ダミー154B",
-      "ダミー154C"
+      "寒い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳154"
+    "answer": "寒い"
   },
   {
-    "question": "word155",
+    "question": "book",
+    "word": "book",
     "choices": [
-      "訳155",
-      "ダミー155A",
-      "ダミー155B",
-      "ダミー155C"
+      "本",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳155"
+    "answer": "本"
   },
   {
-    "question": "word156",
+    "question": "pen",
+    "word": "pen",
     "choices": [
-      "訳156",
-      "ダミー156A",
-      "ダミー156B",
-      "ダミー156C"
+      "ペン",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳156"
+    "answer": "ペン"
   },
   {
-    "question": "word157",
+    "question": "car",
+    "word": "car",
     "choices": [
-      "訳157",
-      "ダミー157A",
-      "ダミー157B",
-      "ダミー157C"
+      "車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳157"
+    "answer": "車"
   },
   {
-    "question": "word158",
+    "question": "train",
+    "word": "train",
     "choices": [
-      "訳158",
-      "ダミー158A",
-      "ダミー158B",
-      "ダミー158C"
+      "電車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳158"
+    "answer": "電車"
   },
   {
-    "question": "word159",
+    "question": "house",
+    "word": "house",
     "choices": [
-      "訳159",
-      "ダミー159A",
-      "ダミー159B",
-      "ダミー159C"
+      "家",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳159"
+    "answer": "家"
   },
   {
-    "question": "word160",
+    "question": "friend",
+    "word": "friend",
     "choices": [
-      "訳160",
-      "ダミー160A",
-      "ダミー160B",
-      "ダミー160C"
+      "友だち",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳160"
+    "answer": "友だち"
   },
   {
-    "question": "word161",
+    "question": "apple",
+    "word": "apple",
     "choices": [
-      "訳161",
-      "ダミー161A",
-      "ダミー161B",
-      "ダミー161C"
+      "りんご",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳161"
+    "answer": "りんご"
   },
   {
-    "question": "word162",
+    "question": "dog",
+    "word": "dog",
     "choices": [
-      "訳162",
-      "ダミー162A",
-      "ダミー162B",
-      "ダミー162C"
+      "いぬ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳162"
+    "answer": "いぬ"
   },
   {
-    "question": "word163",
+    "question": "cat",
+    "word": "cat",
     "choices": [
-      "訳163",
-      "ダミー163A",
-      "ダミー163B",
-      "ダミー163C"
+      "ねこ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳163"
+    "answer": "ねこ"
   },
   {
-    "question": "word164",
+    "question": "school",
+    "word": "school",
     "choices": [
-      "訳164",
-      "ダミー164A",
-      "ダミー164B",
-      "ダミー164C"
+      "学校",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳164"
+    "answer": "学校"
   },
   {
-    "question": "word165",
+    "question": "teacher",
+    "word": "teacher",
     "choices": [
-      "訳165",
-      "ダミー165A",
-      "ダミー165B",
-      "ダミー165C"
+      "先生",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳165"
+    "answer": "先生"
   },
   {
-    "question": "word166",
+    "question": "run",
+    "word": "run",
     "choices": [
-      "訳166",
-      "ダミー166A",
-      "ダミー166B",
-      "ダミー166C"
+      "走る",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳166"
+    "answer": "走る"
   },
   {
-    "question": "word167",
+    "question": "walk",
+    "word": "walk",
     "choices": [
-      "訳167",
-      "ダミー167A",
-      "ダミー167B",
-      "ダミー167C"
+      "歩く",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳167"
+    "answer": "歩く"
   },
   {
-    "question": "word168",
+    "question": "swim",
+    "word": "swim",
     "choices": [
-      "訳168",
-      "ダミー168A",
-      "ダミー168B",
-      "ダミー168C"
+      "泳ぐ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳168"
+    "answer": "泳ぐ"
   },
   {
-    "question": "word169",
+    "question": "big",
+    "word": "big",
     "choices": [
-      "訳169",
-      "ダミー169A",
-      "ダミー169B",
-      "ダミー169C"
+      "大きい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳169"
+    "answer": "大きい"
   },
   {
-    "question": "word170",
+    "question": "small",
+    "word": "small",
     "choices": [
-      "訳170",
-      "ダミー170A",
-      "ダミー170B",
-      "ダミー170C"
+      "小さい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳170"
+    "answer": "小さい"
   },
   {
-    "question": "word171",
+    "question": "happy",
+    "word": "happy",
     "choices": [
-      "訳171",
-      "ダミー171A",
-      "ダミー171B",
-      "ダミー171C"
+      "うれしい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳171"
+    "answer": "うれしい"
   },
   {
-    "question": "word172",
+    "question": "sad",
+    "word": "sad",
     "choices": [
-      "訳172",
-      "ダミー172A",
-      "ダミー172B",
-      "ダミー172C"
+      "悲しい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳172"
+    "answer": "悲しい"
   },
   {
-    "question": "word173",
+    "question": "hot",
+    "word": "hot",
     "choices": [
-      "訳173",
-      "ダミー173A",
-      "ダミー173B",
-      "ダミー173C"
+      "暑い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳173"
+    "answer": "暑い"
   },
   {
-    "question": "word174",
+    "question": "cold",
+    "word": "cold",
     "choices": [
-      "訳174",
-      "ダミー174A",
-      "ダミー174B",
-      "ダミー174C"
+      "寒い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳174"
+    "answer": "寒い"
   },
   {
-    "question": "word175",
+    "question": "book",
+    "word": "book",
     "choices": [
-      "訳175",
-      "ダミー175A",
-      "ダミー175B",
-      "ダミー175C"
+      "本",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳175"
+    "answer": "本"
   },
   {
-    "question": "word176",
+    "question": "pen",
+    "word": "pen",
     "choices": [
-      "訳176",
-      "ダミー176A",
-      "ダミー176B",
-      "ダミー176C"
+      "ペン",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳176"
+    "answer": "ペン"
   },
   {
-    "question": "word177",
+    "question": "car",
+    "word": "car",
     "choices": [
-      "訳177",
-      "ダミー177A",
-      "ダミー177B",
-      "ダミー177C"
+      "車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳177"
+    "answer": "車"
   },
   {
-    "question": "word178",
+    "question": "train",
+    "word": "train",
     "choices": [
-      "訳178",
-      "ダミー178A",
-      "ダミー178B",
-      "ダミー178C"
+      "電車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳178"
+    "answer": "電車"
   },
   {
-    "question": "word179",
+    "question": "house",
+    "word": "house",
     "choices": [
-      "訳179",
-      "ダミー179A",
-      "ダミー179B",
-      "ダミー179C"
+      "家",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳179"
+    "answer": "家"
   },
   {
-    "question": "word180",
+    "question": "friend",
+    "word": "friend",
     "choices": [
-      "訳180",
-      "ダミー180A",
-      "ダミー180B",
-      "ダミー180C"
+      "友だち",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳180"
+    "answer": "友だち"
   },
   {
-    "question": "word181",
+    "question": "apple",
+    "word": "apple",
     "choices": [
-      "訳181",
-      "ダミー181A",
-      "ダミー181B",
-      "ダミー181C"
+      "りんご",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳181"
+    "answer": "りんご"
   },
   {
-    "question": "word182",
+    "question": "dog",
+    "word": "dog",
     "choices": [
-      "訳182",
-      "ダミー182A",
-      "ダミー182B",
-      "ダミー182C"
+      "いぬ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳182"
+    "answer": "いぬ"
   },
   {
-    "question": "word183",
+    "question": "cat",
+    "word": "cat",
     "choices": [
-      "訳183",
-      "ダミー183A",
-      "ダミー183B",
-      "ダミー183C"
+      "ねこ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳183"
+    "answer": "ねこ"
   },
   {
-    "question": "word184",
+    "question": "school",
+    "word": "school",
     "choices": [
-      "訳184",
-      "ダミー184A",
-      "ダミー184B",
-      "ダミー184C"
+      "学校",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳184"
+    "answer": "学校"
   },
   {
-    "question": "word185",
+    "question": "teacher",
+    "word": "teacher",
     "choices": [
-      "訳185",
-      "ダミー185A",
-      "ダミー185B",
-      "ダミー185C"
+      "先生",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳185"
+    "answer": "先生"
   },
   {
-    "question": "word186",
+    "question": "run",
+    "word": "run",
     "choices": [
-      "訳186",
-      "ダミー186A",
-      "ダミー186B",
-      "ダミー186C"
+      "走る",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳186"
+    "answer": "走る"
   },
   {
-    "question": "word187",
+    "question": "walk",
+    "word": "walk",
     "choices": [
-      "訳187",
-      "ダミー187A",
-      "ダミー187B",
-      "ダミー187C"
+      "歩く",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳187"
+    "answer": "歩く"
   },
   {
-    "question": "word188",
+    "question": "swim",
+    "word": "swim",
     "choices": [
-      "訳188",
-      "ダミー188A",
-      "ダミー188B",
-      "ダミー188C"
+      "泳ぐ",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳188"
+    "answer": "泳ぐ"
   },
   {
-    "question": "word189",
+    "question": "big",
+    "word": "big",
     "choices": [
-      "訳189",
-      "ダミー189A",
-      "ダミー189B",
-      "ダミー189C"
+      "大きい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳189"
+    "answer": "大きい"
   },
   {
-    "question": "word190",
+    "question": "small",
+    "word": "small",
     "choices": [
-      "訳190",
-      "ダミー190A",
-      "ダミー190B",
-      "ダミー190C"
+      "小さい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳190"
+    "answer": "小さい"
   },
   {
-    "question": "word191",
+    "question": "happy",
+    "word": "happy",
     "choices": [
-      "訳191",
-      "ダミー191A",
-      "ダミー191B",
-      "ダミー191C"
+      "うれしい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳191"
+    "answer": "うれしい"
   },
   {
-    "question": "word192",
+    "question": "sad",
+    "word": "sad",
     "choices": [
-      "訳192",
-      "ダミー192A",
-      "ダミー192B",
-      "ダミー192C"
+      "悲しい",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳192"
+    "answer": "悲しい"
   },
   {
-    "question": "word193",
+    "question": "hot",
+    "word": "hot",
     "choices": [
-      "訳193",
-      "ダミー193A",
-      "ダミー193B",
-      "ダミー193C"
+      "暑い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳193"
+    "answer": "暑い"
   },
   {
-    "question": "word194",
+    "question": "cold",
+    "word": "cold",
     "choices": [
-      "訳194",
-      "ダミー194A",
-      "ダミー194B",
-      "ダミー194C"
+      "寒い",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳194"
+    "answer": "寒い"
   },
   {
-    "question": "word195",
+    "question": "book",
+    "word": "book",
     "choices": [
-      "訳195",
-      "ダミー195A",
-      "ダミー195B",
-      "ダミー195C"
+      "本",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳195"
+    "answer": "本"
   },
   {
-    "question": "word196",
+    "question": "pen",
+    "word": "pen",
     "choices": [
-      "訳196",
-      "ダミー196A",
-      "ダミー196B",
-      "ダミー196C"
+      "ペン",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳196"
+    "answer": "ペン"
   },
   {
-    "question": "word197",
+    "question": "car",
+    "word": "car",
     "choices": [
-      "訳197",
-      "ダミー197A",
-      "ダミー197B",
-      "ダミー197C"
+      "車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳197"
+    "answer": "車"
   },
   {
-    "question": "word198",
+    "question": "train",
+    "word": "train",
     "choices": [
-      "訳198",
-      "ダミー198A",
-      "ダミー198B",
-      "ダミー198C"
+      "電車",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳198"
+    "answer": "電車"
   },
   {
-    "question": "word199",
+    "question": "house",
+    "word": "house",
     "choices": [
-      "訳199",
-      "ダミー199A",
-      "ダミー199B",
-      "ダミー199C"
+      "家",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳199"
+    "answer": "家"
   },
   {
-    "question": "word200",
+    "question": "friend",
+    "word": "friend",
     "choices": [
-      "訳200",
-      "ダミー200A",
-      "ダミー200B",
-      "ダミー200C"
+      "友だち",
+      "みかん",
+      "バナナ",
+      "ぶどう"
     ],
-    "answer": "訳200"
+    "answer": "友だち"
   }
 ]
