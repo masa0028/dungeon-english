@@ -1,0 +1,2202 @@
+[
+  {
+    "question": "ability",
+    "word": "ability",
+    "choices": [
+      "とにかく",
+      "能力",
+      "部門・学科",
+      "注意深く"
+    ],
+    "answer": "能力"
+  },
+  {
+    "question": "aboard",
+    "word": "aboard",
+    "choices": [
+      "性格・登場人物",
+      "目に見えない",
+      "乗って",
+      "効果的な"
+    ],
+    "answer": "乗って"
+  },
+  {
+    "question": "abroad",
+    "word": "abroad",
+    "choices": [
+      "海外で",
+      "教育",
+      "発展させる・開発する",
+      "エネルギー"
+    ],
+    "answer": "海外で"
+  },
+  {
+    "question": "absent",
+    "word": "absent",
+    "choices": [
+      "欠席の",
+      "中毒者",
+      "行動",
+      "歴史上重要な"
+    ],
+    "answer": "欠席の"
+  },
+  {
+    "question": "accept",
+    "word": "accept",
+    "choices": [
+      "理解する",
+      "事故",
+      "受け入れる",
+      "程度・学位"
+    ],
+    "answer": "受け入れる"
+  },
+  {
+    "question": "access",
+    "word": "access",
+    "choices": [
+      "アクセス",
+      "犯罪",
+      "方向",
+      "病気"
+    ],
+    "answer": "アクセス"
+  },
+  {
+    "question": "accident",
+    "word": "accident",
+    "choices": [
+      "現れる",
+      "公平な",
+      "自信がある",
+      "事故"
+    ],
+    "answer": "事故"
+  },
+  {
+    "question": "according to",
+    "word": "according to",
+    "choices": [
+      "〜によれば",
+      "特に",
+      "説明する",
+      "ついに"
+    ],
+    "answer": "〜によれば"
+  },
+  {
+    "question": "achieve",
+    "word": "achieve",
+    "choices": [
+      "化学の",
+      "一人で",
+      "達成する",
+      "とにかく"
+    ],
+    "answer": "達成する"
+  },
+  {
+    "question": "active",
+    "word": "active",
+    "choices": [
+      "活動的な",
+      "英雄",
+      "すでに",
+      "従業員"
+    ],
+    "answer": "活動的な"
+  },
+  {
+    "question": "activity",
+    "word": "activity",
+    "choices": [
+      "平均の",
+      "目に見えない",
+      "活動",
+      "謝る"
+    ],
+    "answer": "活動"
+  },
+  {
+    "question": "actual",
+    "word": "actual",
+    "choices": [
+      "実際の",
+      "関与させる・伴う",
+      "能力",
+      "特に"
+    ],
+    "answer": "実際の"
+  },
+  {
+    "question": "addict",
+    "word": "addict",
+    "choices": [
+      "アクセス",
+      "特に",
+      "中毒者",
+      "理解する"
+    ],
+    "answer": "中毒者"
+  },
+  {
+    "question": "advantage",
+    "word": "advantage",
+    "choices": [
+      "放送する",
+      "独立した",
+      "利点",
+      "乗って"
+    ],
+    "answer": "利点"
+  },
+  {
+    "question": "adventure",
+    "word": "adventure",
+    "choices": [
+      "利益",
+      "冒険",
+      "しかしながら",
+      "経歴・職業"
+    ],
+    "answer": "冒険"
+  },
+  {
+    "question": "advertisement",
+    "word": "advertisement",
+    "choices": [
+      "広告",
+      "続ける",
+      "海外で",
+      "ついに"
+    ],
+    "answer": "広告"
+  },
+  {
+    "question": "advice",
+    "word": "advice",
+    "choices": [
+      "助言",
+      "心配・関係",
+      "自信がある",
+      "見出し"
+    ],
+    "answer": "助言"
+  },
+  {
+    "question": "affect",
+    "word": "affect",
+    "choices": [
+      "事故",
+      "減る",
+      "影響を与える",
+      "完全に"
+    ],
+    "answer": "影響を与える"
+  },
+  {
+    "question": "afraid",
+    "word": "afraid",
+    "choices": [
+      "技師",
+      "実験",
+      "代わりに",
+      "恐れて"
+    ],
+    "answer": "恐れて"
+  },
+  {
+    "question": "against",
+    "word": "against",
+    "choices": [
+      "行動",
+      "〜に反対して",
+      "努力",
+      "環境"
+    ],
+    "answer": "〜に反対して"
+  },
+  {
+    "question": "agree",
+    "word": "agree",
+    "choices": [
+      "正式な",
+      "完全に",
+      "犯罪",
+      "同意する"
+    ],
+    "answer": "同意する"
+  },
+  {
+    "question": "ahead",
+    "word": "ahead",
+    "choices": [
+      "配達する",
+      "公平な",
+      "行動",
+      "前方に"
+    ],
+    "answer": "前方に"
+  },
+  {
+    "question": "allow",
+    "word": "allow",
+    "choices": [
+      "エネルギー",
+      "詳細",
+      "〜だけれども",
+      "許す"
+    ],
+    "answer": "許す"
+  },
+  {
+    "question": "almost",
+    "word": "almost",
+    "choices": [
+      "建築家",
+      "ほとんど",
+      "影響を与える",
+      "アクセス"
+    ],
+    "answer": "ほとんど"
+  },
+  {
+    "question": "alone",
+    "word": "alone",
+    "choices": [
+      "海外で",
+      "一人で",
+      "予算",
+      "不平を言う"
+    ],
+    "answer": "一人で"
+  },
+  {
+    "question": "already",
+    "word": "already",
+    "choices": [
+      "発展させる・開発する",
+      "すでに",
+      "平均の",
+      "困難"
+    ],
+    "answer": "すでに"
+  },
+  {
+    "question": "although",
+    "word": "although",
+    "choices": [
+      "建設",
+      "〜だけれども",
+      "関与させる・伴う",
+      "交換する"
+    ],
+    "answer": "〜だけれども"
+  },
+  {
+    "question": "amount",
+    "word": "amount",
+    "choices": [
+      "量",
+      "詳細",
+      "理想の",
+      "〜に反対して"
+    ],
+    "answer": "量"
+  },
+  {
+    "question": "ancient",
+    "word": "ancient",
+    "choices": [
+      "古代の",
+      "含む",
+      "行動",
+      "予約"
+    ],
+    "answer": "古代の"
+  },
+  {
+    "question": "anniversary",
+    "word": "anniversary",
+    "choices": [
+      "影響",
+      "記念日",
+      "困難",
+      "独立した"
+    ],
+    "answer": "記念日"
+  },
+  {
+    "question": "anxious",
+    "word": "anxious",
+    "choices": [
+      "著者",
+      "心配して",
+      "恥ずかしい思いの",
+      "芸術家"
+    ],
+    "answer": "心配して"
+  },
+  {
+    "question": "anyway",
+    "word": "anyway",
+    "choices": [
+      "競争",
+      "英雄",
+      "運動選手",
+      "とにかく"
+    ],
+    "answer": "とにかく"
+  },
+  {
+    "question": "apologize",
+    "word": "apologize",
+    "choices": [
+      "器具・楽器",
+      "運動・練習",
+      "謝る",
+      "芸術家"
+    ],
+    "answer": "謝る"
+  },
+  {
+    "question": "appear",
+    "word": "appear",
+    "choices": [
+      "疑い",
+      "現れる",
+      "英雄",
+      "有名な"
+    ],
+    "answer": "現れる"
+  },
+  {
+    "question": "application",
+    "word": "application",
+    "choices": [
+      "能力",
+      "冒険",
+      "申請・アプリ",
+      "一人で"
+    ],
+    "answer": "申請・アプリ"
+  },
+  {
+    "question": "apply",
+    "word": "apply",
+    "choices": [
+      "申し込む・当てはまる",
+      "器具・楽器",
+      "よく考える",
+      "すでに"
+    ],
+    "answer": "申し込む・当てはまる"
+  },
+  {
+    "question": "appointment",
+    "word": "appointment",
+    "choices": [
+      "予約",
+      "目標",
+      "改善する",
+      "化学の"
+    ],
+    "answer": "予約"
+  },
+  {
+    "question": "appreciate",
+    "word": "appreciate",
+    "choices": [
+      "感謝する",
+      "祝う",
+      "不注意な",
+      "教育"
+    ],
+    "answer": "感謝する"
+  },
+  {
+    "question": "architect",
+    "word": "architect",
+    "choices": [
+      "主催者・司会者",
+      "事故",
+      "建築家",
+      "態度"
+    ],
+    "answer": "建築家"
+  },
+  {
+    "question": "area",
+    "word": "area",
+    "choices": [
+      "地域",
+      "教育",
+      "主催者・司会者",
+      "予約"
+    ],
+    "answer": "地域"
+  },
+  {
+    "question": "argue",
+    "word": "argue",
+    "choices": [
+      "議論する",
+      "映像・印象",
+      "〜に頼る",
+      "有名な"
+    ],
+    "answer": "議論する"
+  },
+  {
+    "question": "arrange",
+    "word": "arrange",
+    "choices": [
+      "重く・激しく",
+      "健康な",
+      "手配する",
+      "目に見えない"
+    ],
+    "answer": "手配する"
+  },
+  {
+    "question": "article",
+    "word": "article",
+    "choices": [
+      "下に",
+      "記事",
+      "観客",
+      "完全に"
+    ],
+    "answer": "記事"
+  },
+  {
+    "question": "artist",
+    "word": "artist",
+    "choices": [
+      "記事",
+      "謝る",
+      "芸術家",
+      "器具・楽器"
+    ],
+    "answer": "芸術家"
+  },
+  {
+    "question": "asleep",
+    "word": "asleep",
+    "choices": [
+      "議論する",
+      "困難",
+      "下に",
+      "眠って"
+    ],
+    "answer": "眠って"
+  },
+  {
+    "question": "assist",
+    "word": "assist",
+    "choices": [
+      "外国の",
+      "手伝う",
+      "自信がある",
+      "効果"
+    ],
+    "answer": "手伝う"
+  },
+  {
+    "question": "athlete",
+    "word": "athlete",
+    "choices": [
+      "公平な",
+      "運動選手",
+      "エネルギー",
+      "描写する"
+    ],
+    "answer": "運動選手"
+  },
+  {
+    "question": "atmosphere",
+    "word": "atmosphere",
+    "choices": [
+      "雰囲気・大気",
+      "消費者",
+      "眠って",
+      "好奇心の強い"
+    ],
+    "answer": "雰囲気・大気"
+  },
+  {
+    "question": "attention",
+    "word": "attention",
+    "choices": [
+      "注意",
+      "病気",
+      "都合のよい",
+      "アクセス"
+    ],
+    "answer": "注意"
+  },
+  {
+    "question": "attitude",
+    "word": "attitude",
+    "choices": [
+      "すでに",
+      "古代の",
+      "態度",
+      "祝う"
+    ],
+    "answer": "態度"
+  },
+  {
+    "question": "audience",
+    "word": "audience",
+    "choices": [
+      "特徴",
+      "観客",
+      "優れた",
+      "効果的な"
+    ],
+    "answer": "観客"
+  },
+  {
+    "question": "author",
+    "word": "author",
+    "choices": [
+      "勇気",
+      "申請・アプリ",
+      "著者",
+      "努力"
+    ],
+    "answer": "著者"
+  },
+  {
+    "question": "average",
+    "word": "average",
+    "choices": [
+      "意思疎通する",
+      "平均の",
+      "外国の",
+      "健康な"
+    ],
+    "answer": "平均の"
+  },
+  {
+    "question": "avoid",
+    "word": "avoid",
+    "choices": [
+      "広告",
+      "許す",
+      "予約",
+      "避ける"
+    ],
+    "answer": "避ける"
+  },
+  {
+    "question": "awake",
+    "word": "awake",
+    "choices": [
+      "創造的な",
+      "目が覚めて",
+      "外国の",
+      "平均の"
+    ],
+    "answer": "目が覚めて"
+  },
+  {
+    "question": "baggage",
+    "word": "baggage",
+    "choices": [
+      "手荷物",
+      "結局は",
+      "性格・登場人物",
+      "実験"
+    ],
+    "answer": "手荷物"
+  },
+  {
+    "question": "behavior",
+    "word": "behavior",
+    "choices": [
+      "心配・関係",
+      "〜に頼る",
+      "行動",
+      "比較する"
+    ],
+    "answer": "行動"
+  },
+  {
+    "question": "below",
+    "word": "below",
+    "choices": [
+      "下に",
+      "励ます",
+      "記事",
+      "建築家"
+    ],
+    "answer": "下に"
+  },
+  {
+    "question": "benefit",
+    "word": "benefit",
+    "choices": [
+      "呼吸する",
+      "政府",
+      "利益",
+      "創造的な"
+    ],
+    "answer": "利益"
+  },
+  {
+    "question": "besides",
+    "word": "besides",
+    "choices": [
+      "創造的な",
+      "独立した",
+      "減る",
+      "〜に加えて"
+    ],
+    "answer": "〜に加えて"
+  },
+  {
+    "question": "breathe",
+    "word": "breathe",
+    "choices": [
+      "広告",
+      "独立した",
+      "呼吸する",
+      "避ける"
+    ],
+    "answer": "呼吸する"
+  },
+  {
+    "question": "bridge",
+    "word": "bridge",
+    "choices": [
+      "事故",
+      "会社",
+      "橋",
+      "詳細"
+    ],
+    "answer": "橋"
+  },
+  {
+    "question": "brilliant",
+    "word": "brilliant",
+    "choices": [
+      "ついに",
+      "量",
+      "見事な・輝かしい",
+      "アクセス"
+    ],
+    "answer": "見事な・輝かしい"
+  },
+  {
+    "question": "broadcast",
+    "word": "broadcast",
+    "choices": [
+      "生き物",
+      "新鮮な",
+      "自由",
+      "放送する"
+    ],
+    "answer": "放送する"
+  },
+  {
+    "question": "budget",
+    "word": "budget",
+    "choices": [
+      "特に",
+      "予算",
+      "効果",
+      "習慣・税関"
+    ],
+    "answer": "予算"
+  },
+  {
+    "question": "career",
+    "word": "career",
+    "choices": [
+      "経歴・職業",
+      "表現する",
+      "犯罪",
+      "影響"
+    ],
+    "answer": "経歴・職業"
+  },
+  {
+    "question": "careless",
+    "word": "careless",
+    "choices": [
+      "不注意な",
+      "歴史",
+      "下に",
+      "議論する"
+    ],
+    "answer": "不注意な"
+  },
+  {
+    "question": "carefully",
+    "word": "carefully",
+    "choices": [
+      "中毒者",
+      "運動選手",
+      "注意深く",
+      "前方に"
+    ],
+    "answer": "注意深く"
+  },
+  {
+    "question": "celebrate",
+    "word": "celebrate",
+    "choices": [
+      "祝う",
+      "雇用主",
+      "電気",
+      "発展させる・開発する"
+    ],
+    "answer": "祝う"
+  },
+  {
+    "question": "certain",
+    "word": "certain",
+    "choices": [
+      "確かな",
+      "重く・激しく",
+      "独立した",
+      "地域社会"
+    ],
+    "answer": "確かな"
+  },
+  {
+    "question": "challenge",
+    "word": "challenge",
+    "choices": [
+      "挑戦",
+      "消費者",
+      "広告",
+      "文化"
+    ],
+    "answer": "挑戦"
+  },
+  {
+    "question": "character",
+    "word": "character",
+    "choices": [
+      "見出し",
+      "性格・登場人物",
+      "映像・印象",
+      "特徴"
+    ],
+    "answer": "性格・登場人物"
+  },
+  {
+    "question": "chemical",
+    "word": "chemical",
+    "choices": [
+      "化学の",
+      "冒険",
+      "祝う",
+      "下に"
+    ],
+    "answer": "化学の"
+  },
+  {
+    "question": "comfortable",
+    "word": "comfortable",
+    "choices": [
+      "挑戦",
+      "自信がある",
+      "快適な",
+      "助言"
+    ],
+    "answer": "快適な"
+  },
+  {
+    "question": "communicate",
+    "word": "communicate",
+    "choices": [
+      "意思疎通する",
+      "放送する",
+      "古代の",
+      "地域"
+    ],
+    "answer": "意思疎通する"
+  },
+  {
+    "question": "community",
+    "word": "community",
+    "choices": [
+      "活動的な",
+      "幸運にも",
+      "地域社会",
+      "会社"
+    ],
+    "answer": "地域社会"
+  },
+  {
+    "question": "company",
+    "word": "company",
+    "choices": [
+      "森林",
+      "平均の",
+      "観客",
+      "会社"
+    ],
+    "answer": "会社"
+  },
+  {
+    "question": "compare",
+    "word": "compare",
+    "choices": [
+      "比較する",
+      "歴史上重要な",
+      "とにかく",
+      "活動的な"
+    ],
+    "answer": "比較する"
+  },
+  {
+    "question": "competition",
+    "word": "competition",
+    "choices": [
+      "競争",
+      "〜に加えて",
+      "ついに",
+      "正式な"
+    ],
+    "answer": "競争"
+  },
+  {
+    "question": "complain",
+    "word": "complain",
+    "choices": [
+      "不平を言う",
+      "環境",
+      "〜だけれども",
+      "目標"
+    ],
+    "answer": "不平を言う"
+  },
+  {
+    "question": "completely",
+    "word": "completely",
+    "choices": [
+      "改善する",
+      "程度・学位",
+      "海外で",
+      "完全に"
+    ],
+    "answer": "完全に"
+  },
+  {
+    "question": "compose",
+    "word": "compose",
+    "choices": [
+      "比較する",
+      "理想の",
+      "作曲する・構成する",
+      "環境"
+    ],
+    "answer": "作曲する・構成する"
+  },
+  {
+    "question": "concentrate",
+    "word": "concentrate",
+    "choices": [
+      "平均の",
+      "実際の",
+      "記念日",
+      "集中する"
+    ],
+    "answer": "集中する"
+  },
+  {
+    "question": "concern",
+    "word": "concern",
+    "choices": [
+      "心配・関係",
+      "経歴・職業",
+      "状態・条件",
+      "すぐに"
+    ],
+    "answer": "心配・関係"
+  },
+  {
+    "question": "condition",
+    "word": "condition",
+    "choices": [
+      "状態・条件",
+      "発展させる・開発する",
+      "従業員",
+      "効果的な"
+    ],
+    "answer": "状態・条件"
+  },
+  {
+    "question": "conference",
+    "word": "conference",
+    "choices": [
+      "会議",
+      "しかしながら",
+      "設計する",
+      "地区"
+    ],
+    "answer": "会議"
+  },
+  {
+    "question": "confident",
+    "word": "confident",
+    "choices": [
+      "外国人",
+      "実際の",
+      "〜によれば",
+      "自信がある"
+    ],
+    "answer": "自信がある"
+  },
+  {
+    "question": "consider",
+    "word": "consider",
+    "choices": [
+      "よく考える",
+      "芸術家",
+      "比較する",
+      "目が覚めて"
+    ],
+    "answer": "よく考える"
+  },
+  {
+    "question": "construction",
+    "word": "construction",
+    "choices": [
+      "建設",
+      "冒険",
+      "飾る",
+      "外国の"
+    ],
+    "answer": "建設"
+  },
+  {
+    "question": "consumer",
+    "word": "consumer",
+    "choices": [
+      "消費者",
+      "手荷物",
+      "決定",
+      "従業員"
+    ],
+    "answer": "消費者"
+  },
+  {
+    "question": "contact",
+    "word": "contact",
+    "choices": [
+      "連絡を取る",
+      "料金",
+      "議論する",
+      "行動"
+    ],
+    "answer": "連絡を取る"
+  },
+  {
+    "question": "contest",
+    "word": "contest",
+    "choices": [
+      "現れる",
+      "避ける",
+      "コンテスト",
+      "病気"
+    ],
+    "answer": "コンテスト"
+  },
+  {
+    "question": "continue",
+    "word": "continue",
+    "choices": [
+      "エネルギー",
+      "続ける",
+      "結局は",
+      "見出し"
+    ],
+    "answer": "続ける"
+  },
+  {
+    "question": "convenient",
+    "word": "convenient",
+    "choices": [
+      "表現する",
+      "目が覚めて",
+      "都合のよい",
+      "装置"
+    ],
+    "answer": "都合のよい"
+  },
+  {
+    "question": "courage",
+    "word": "courage",
+    "choices": [
+      "許す",
+      "勇気",
+      "手伝う",
+      "巨大な"
+    ],
+    "answer": "勇気"
+  },
+  {
+    "question": "create",
+    "word": "create",
+    "choices": [
+      "特に",
+      "創造する",
+      "古代の",
+      "化学の"
+    ],
+    "answer": "創造する"
+  },
+  {
+    "question": "creative",
+    "word": "creative",
+    "choices": [
+      "創造的な",
+      "料金",
+      "海外で",
+      "化学の"
+    ],
+    "answer": "創造的な"
+  },
+  {
+    "question": "creature",
+    "word": "creature",
+    "choices": [
+      "生き物",
+      "減少する・断る",
+      "効果的な",
+      "現れる"
+    ],
+    "answer": "生き物"
+  },
+  {
+    "question": "crime",
+    "word": "crime",
+    "choices": [
+      "感情",
+      "程度・学位",
+      "不平を言う",
+      "犯罪"
+    ],
+    "answer": "犯罪"
+  },
+  {
+    "question": "culture",
+    "word": "culture",
+    "choices": [
+      "文化",
+      "主催者・司会者",
+      "確かな",
+      "橋"
+    ],
+    "answer": "文化"
+  },
+  {
+    "question": "curious",
+    "word": "curious",
+    "choices": [
+      "疑い",
+      "好奇心の強い",
+      "影響",
+      "コンテスト"
+    ],
+    "answer": "好奇心の強い"
+  },
+  {
+    "question": "custom",
+    "word": "custom",
+    "choices": [
+      "幸運にも",
+      "技師",
+      "習慣・税関",
+      "決定"
+    ],
+    "answer": "習慣・税関"
+  },
+  {
+    "question": "decide",
+    "word": "decide",
+    "choices": [
+      "発見する",
+      "都合のよい",
+      "決める",
+      "幸運にも"
+    ],
+    "answer": "決める"
+  },
+  {
+    "question": "decision",
+    "word": "decision",
+    "choices": [
+      "アクセス",
+      "決定",
+      "減少する・断る",
+      "海外で"
+    ],
+    "answer": "決定"
+  },
+  {
+    "question": "decorate",
+    "word": "decorate",
+    "choices": [
+      "飾る",
+      "料金",
+      "申請・アプリ",
+      "利点"
+    ],
+    "answer": "飾る"
+  },
+  {
+    "question": "decline",
+    "word": "decline",
+    "choices": [
+      "正式な",
+      "地区",
+      "効率的な",
+      "減少する・断る"
+    ],
+    "answer": "減少する・断る"
+  },
+  {
+    "question": "decrease",
+    "word": "decrease",
+    "choices": [
+      "描写する",
+      "識別する",
+      "謝る",
+      "減る"
+    ],
+    "answer": "減る"
+  },
+  {
+    "question": "degree",
+    "word": "degree",
+    "choices": [
+      "配達する",
+      "発明する",
+      "程度・学位",
+      "改善する"
+    ],
+    "answer": "程度・学位"
+  },
+  {
+    "question": "deliver",
+    "word": "deliver",
+    "choices": [
+      "改善する",
+      "配達する",
+      "受け入れる",
+      "利益"
+    ],
+    "answer": "配達する"
+  },
+  {
+    "question": "demand",
+    "word": "demand",
+    "choices": [
+      "需要・要求",
+      "心配・関係",
+      "予約",
+      "表現する"
+    ],
+    "answer": "需要・要求"
+  },
+  {
+    "question": "department",
+    "word": "department",
+    "choices": [
+      "著者",
+      "アクセス",
+      "方向",
+      "部門・学科"
+    ],
+    "answer": "部門・学科"
+  },
+  {
+    "question": "depend on",
+    "word": "depend on",
+    "choices": [
+      "地区",
+      "部門・学科",
+      "会議",
+      "〜に頼る"
+    ],
+    "answer": "〜に頼る"
+  },
+  {
+    "question": "describe",
+    "word": "describe",
+    "choices": [
+      "女性の",
+      "巨大な",
+      "心配・関係",
+      "描写する"
+    ],
+    "answer": "描写する"
+  },
+  {
+    "question": "design",
+    "word": "design",
+    "choices": [
+      "生き物",
+      "比較する",
+      "見事な・輝かしい",
+      "設計する"
+    ],
+    "answer": "設計する"
+  },
+  {
+    "question": "detail",
+    "word": "detail",
+    "choices": [
+      "森林",
+      "装置・備品",
+      "消える",
+      "詳細"
+    ],
+    "answer": "詳細"
+  },
+  {
+    "question": "develop",
+    "word": "develop",
+    "choices": [
+      "発展させる・開発する",
+      "自信がある",
+      "観客",
+      "〜によれば"
+    ],
+    "answer": "発展させる・開発する"
+  },
+  {
+    "question": "device",
+    "word": "device",
+    "choices": [
+      "装置",
+      "目が覚めて",
+      "橋",
+      "不注意な"
+    ],
+    "answer": "装置"
+  },
+  {
+    "question": "dialogue",
+    "word": "dialogue",
+    "choices": [
+      "対話",
+      "病気",
+      "見事な・輝かしい",
+      "発見する"
+    ],
+    "answer": "対話"
+  },
+  {
+    "question": "differ",
+    "word": "differ",
+    "choices": [
+      "異なる",
+      "記念日",
+      "〜に加えて",
+      "見出し"
+    ],
+    "answer": "異なる"
+  },
+  {
+    "question": "difficulty",
+    "word": "difficulty",
+    "choices": [
+      "困難",
+      "会議",
+      "疑い",
+      "謝る"
+    ],
+    "answer": "困難"
+  },
+  {
+    "question": "direction",
+    "word": "direction",
+    "choices": [
+      "努力",
+      "〜だけれども",
+      "方向",
+      "記事"
+    ],
+    "answer": "方向"
+  },
+  {
+    "question": "disappear",
+    "word": "disappear",
+    "choices": [
+      "能力",
+      "消える",
+      "外国人",
+      "呼吸する"
+    ],
+    "answer": "消える"
+  },
+  {
+    "question": "discover",
+    "word": "discover",
+    "choices": [
+      "申し込む・当てはまる",
+      "欠席の",
+      "実際の",
+      "発見する"
+    ],
+    "answer": "発見する"
+  },
+  {
+    "question": "disease",
+    "word": "disease",
+    "choices": [
+      "利益",
+      "受け入れる",
+      "詳細",
+      "病気"
+    ],
+    "answer": "病気"
+  },
+  {
+    "question": "distance",
+    "word": "distance",
+    "choices": [
+      "距離",
+      "状態・条件",
+      "消える",
+      "とにかく"
+    ],
+    "answer": "距離"
+  },
+  {
+    "question": "district",
+    "word": "district",
+    "choices": [
+      "政府",
+      "不平を言う",
+      "装置・備品",
+      "地区"
+    ],
+    "answer": "地区"
+  },
+  {
+    "question": "doubt",
+    "word": "doubt",
+    "choices": [
+      "習慣",
+      "困難",
+      "能力",
+      "疑い"
+    ],
+    "answer": "疑い"
+  },
+  {
+    "question": "education",
+    "word": "education",
+    "choices": [
+      "有名な",
+      "教育",
+      "活動的な",
+      "習慣"
+    ],
+    "answer": "教育"
+  },
+  {
+    "question": "effect",
+    "word": "effect",
+    "choices": [
+      "改善する",
+      "消える",
+      "効果",
+      "描写する"
+    ],
+    "answer": "効果"
+  },
+  {
+    "question": "effective",
+    "word": "effective",
+    "choices": [
+      "効果的な",
+      "建設",
+      "不注意な",
+      "祝う"
+    ],
+    "answer": "効果的な"
+  },
+  {
+    "question": "efficient",
+    "word": "efficient",
+    "choices": [
+      "呼吸する",
+      "効率的な",
+      "一人で",
+      "続ける"
+    ],
+    "answer": "効率的な"
+  },
+  {
+    "question": "effort",
+    "word": "effort",
+    "choices": [
+      "努力",
+      "中毒者",
+      "女性の",
+      "病気"
+    ],
+    "answer": "努力"
+  },
+  {
+    "question": "electricity",
+    "word": "electricity",
+    "choices": [
+      "電気",
+      "海外で",
+      "心配・関係",
+      "設計する"
+    ],
+    "answer": "電気"
+  },
+  {
+    "question": "embarrassed",
+    "word": "embarrassed",
+    "choices": [
+      "完全に",
+      "含む",
+      "重く・激しく",
+      "恥ずかしい思いの"
+    ],
+    "answer": "恥ずかしい思いの"
+  },
+  {
+    "question": "emotion",
+    "word": "emotion",
+    "choices": [
+      "感情",
+      "状態・条件",
+      "冒険",
+      "古代の"
+    ],
+    "answer": "感情"
+  },
+  {
+    "question": "employee",
+    "word": "employee",
+    "choices": [
+      "増える",
+      "従業員",
+      "芸術家",
+      "消える"
+    ],
+    "answer": "従業員"
+  },
+  {
+    "question": "employer",
+    "word": "employer",
+    "choices": [
+      "雇用主",
+      "効果",
+      "避ける",
+      "人間の"
+    ],
+    "answer": "雇用主"
+  },
+  {
+    "question": "encourage",
+    "word": "encourage",
+    "choices": [
+      "励ます",
+      "よく知られた・親しい",
+      "教育",
+      "装置・備品"
+    ],
+    "answer": "励ます"
+  },
+  {
+    "question": "energy",
+    "word": "energy",
+    "choices": [
+      "現れる",
+      "放送する",
+      "エネルギー",
+      "恐れて"
+    ],
+    "answer": "エネルギー"
+  },
+  {
+    "question": "engineer",
+    "word": "engineer",
+    "choices": [
+      "見事な・輝かしい",
+      "運動選手",
+      "技師",
+      "歴史上重要な"
+    ],
+    "answer": "技師"
+  },
+  {
+    "question": "environment",
+    "word": "environment",
+    "choices": [
+      "改善する",
+      "設計する",
+      "環境",
+      "病気"
+    ],
+    "answer": "環境"
+  },
+  {
+    "question": "equipment",
+    "word": "equipment",
+    "choices": [
+      "目が覚めて",
+      "助言",
+      "欠席の",
+      "装置・備品"
+    ],
+    "answer": "装置・備品"
+  },
+  {
+    "question": "escape",
+    "word": "escape",
+    "choices": [
+      "下に",
+      "外国の",
+      "コンテスト",
+      "逃げる"
+    ],
+    "answer": "逃げる"
+  },
+  {
+    "question": "especially",
+    "word": "especially",
+    "choices": [
+      "特に",
+      "卒業する",
+      "代わりに",
+      "続ける"
+    ],
+    "answer": "特に"
+  },
+  {
+    "question": "event",
+    "word": "event",
+    "choices": [
+      "化学の",
+      "効率的な",
+      "著者",
+      "出来事"
+    ],
+    "answer": "出来事"
+  },
+  {
+    "question": "eventually",
+    "word": "eventually",
+    "choices": [
+      "結局は",
+      "実際の",
+      "創造的な",
+      "政府"
+    ],
+    "answer": "結局は"
+  },
+  {
+    "question": "excellent",
+    "word": "excellent",
+    "choices": [
+      "優れた",
+      "関与させる・伴う",
+      "独立した",
+      "一人で"
+    ],
+    "answer": "優れた"
+  },
+  {
+    "question": "exchange",
+    "word": "exchange",
+    "choices": [
+      "交換する",
+      "影響を与える",
+      "手荷物",
+      "冒険"
+    ],
+    "answer": "交換する"
+  },
+  {
+    "question": "exercise",
+    "word": "exercise",
+    "choices": [
+      "説明する",
+      "需要・要求",
+      "運動・練習",
+      "著者"
+    ],
+    "answer": "運動・練習"
+  },
+  {
+    "question": "experience",
+    "word": "experience",
+    "choices": [
+      "料金",
+      "芸術家",
+      "経験",
+      "エネルギー"
+    ],
+    "answer": "経験"
+  },
+  {
+    "question": "experiment",
+    "word": "experiment",
+    "choices": [
+      "実験",
+      "〜に加えて",
+      "詳細",
+      "消える"
+    ],
+    "answer": "実験"
+  },
+  {
+    "question": "explain",
+    "word": "explain",
+    "choices": [
+      "創造的な",
+      "注意深く",
+      "目に見えない",
+      "説明する"
+    ],
+    "answer": "説明する"
+  },
+  {
+    "question": "express",
+    "word": "express",
+    "choices": [
+      "都合のよい",
+      "会議",
+      "欠席の",
+      "表現する"
+    ],
+    "answer": "表現する"
+  },
+  {
+    "question": "fair",
+    "word": "fair",
+    "choices": [
+      "目が覚めて",
+      "重く・激しく",
+      "達成する",
+      "公平な"
+    ],
+    "answer": "公平な"
+  },
+  {
+    "question": "familiar",
+    "word": "familiar",
+    "choices": [
+      "恥ずかしい思いの",
+      "欠点・過失",
+      "よく知られた・親しい",
+      "利点"
+    ],
+    "answer": "よく知られた・親しい"
+  },
+  {
+    "question": "famous",
+    "word": "famous",
+    "choices": [
+      "有名な",
+      "料金",
+      "技師",
+      "主催者・司会者"
+    ],
+    "answer": "有名な"
+  },
+  {
+    "question": "fault",
+    "word": "fault",
+    "choices": [
+      "集中する",
+      "乗って",
+      "経験",
+      "欠点・過失"
+    ],
+    "answer": "欠点・過失"
+  },
+  {
+    "question": "feature",
+    "word": "feature",
+    "choices": [
+      "特徴",
+      "競争",
+      "観客",
+      "活動"
+    ],
+    "answer": "特徴"
+  },
+  {
+    "question": "fee",
+    "word": "fee",
+    "choices": [
+      "同意する",
+      "料金",
+      "欠席の",
+      "好奇心の強い"
+    ],
+    "answer": "料金"
+  },
+  {
+    "question": "female",
+    "word": "female",
+    "choices": [
+      "手配する",
+      "利点",
+      "女性の",
+      "病気"
+    ],
+    "answer": "女性の"
+  },
+  {
+    "question": "figure out",
+    "word": "figure out",
+    "choices": [
+      "理解する",
+      "恐れて",
+      "確かな",
+      "記念日"
+    ],
+    "answer": "理解する"
+  },
+  {
+    "question": "finally",
+    "word": "finally",
+    "choices": [
+      "ついに",
+      "地区",
+      "〜だけれども",
+      "異なる"
+    ],
+    "answer": "ついに"
+  },
+  {
+    "question": "foreign",
+    "word": "foreign",
+    "choices": [
+      "実験",
+      "外国の",
+      "活動的な",
+      "影響を与える"
+    ],
+    "answer": "外国の"
+  },
+  {
+    "question": "foreigner",
+    "word": "foreigner",
+    "choices": [
+      "連絡を取る",
+      "励ます",
+      "外国人",
+      "活動"
+    ],
+    "answer": "外国人"
+  },
+  {
+    "question": "forest",
+    "word": "forest",
+    "choices": [
+      "森林",
+      "活動的な",
+      "設計する",
+      "受け入れる"
+    ],
+    "answer": "森林"
+  },
+  {
+    "question": "formal",
+    "word": "formal",
+    "choices": [
+      "技師",
+      "困難",
+      "正式な",
+      "雰囲気・大気"
+    ],
+    "answer": "正式な"
+  },
+  {
+    "question": "fortunately",
+    "word": "fortunately",
+    "choices": [
+      "映像・印象",
+      "観客",
+      "幸運にも",
+      "快適な"
+    ],
+    "answer": "幸運にも"
+  },
+  {
+    "question": "fragile",
+    "word": "fragile",
+    "choices": [
+      "文化",
+      "感謝する",
+      "歴史上重要な",
+      "壊れやすい"
+    ],
+    "answer": "壊れやすい"
+  },
+  {
+    "question": "freedom",
+    "word": "freedom",
+    "choices": [
+      "決める",
+      "自由",
+      "祝う",
+      "女性の"
+    ],
+    "answer": "自由"
+  },
+  {
+    "question": "fresh",
+    "word": "fresh",
+    "choices": [
+      "勇気",
+      "感謝する",
+      "心配して",
+      "新鮮な"
+    ],
+    "answer": "新鮮な"
+  },
+  {
+    "question": "frustrated",
+    "word": "frustrated",
+    "choices": [
+      "経験",
+      "いらいらした",
+      "交換する",
+      "達成する"
+    ],
+    "answer": "いらいらした"
+  },
+  {
+    "question": "goal",
+    "word": "goal",
+    "choices": [
+      "事故",
+      "目標",
+      "創造する",
+      "感謝する"
+    ],
+    "answer": "目標"
+  },
+  {
+    "question": "government",
+    "word": "government",
+    "choices": [
+      "効果",
+      "政府",
+      "許す",
+      "化学の"
+    ],
+    "answer": "政府"
+  },
+  {
+    "question": "graduate",
+    "word": "graduate",
+    "choices": [
+      "目標",
+      "対話",
+      "特に",
+      "卒業する"
+    ],
+    "answer": "卒業する"
+  },
+  {
+    "question": "habit",
+    "word": "habit",
+    "choices": [
+      "発明する",
+      "連絡を取る",
+      "習慣",
+      "続ける"
+    ],
+    "answer": "習慣"
+  },
+  {
+    "question": "headline",
+    "word": "headline",
+    "choices": [
+      "見出し",
+      "態度",
+      "発見する",
+      "注意深く"
+    ],
+    "answer": "見出し"
+  },
+  {
+    "question": "healthy",
+    "word": "healthy",
+    "choices": [
+      "健康な",
+      "習慣",
+      "とにかく",
+      "主催者・司会者"
+    ],
+    "answer": "健康な"
+  },
+  {
+    "question": "heavily",
+    "word": "heavily",
+    "choices": [
+      "手伝う",
+      "幸運にも",
+      "重く・激しく",
+      "態度"
+    ],
+    "answer": "重く・激しく"
+  },
+  {
+    "question": "hero",
+    "word": "hero",
+    "choices": [
+      "ついに",
+      "〜に頼る",
+      "英雄",
+      "海外で"
+    ],
+    "answer": "英雄"
+  },
+  {
+    "question": "historic",
+    "word": "historic",
+    "choices": [
+      "影響",
+      "減少する・断る",
+      "効率的な",
+      "歴史上重要な"
+    ],
+    "answer": "歴史上重要な"
+  },
+  {
+    "question": "history",
+    "word": "history",
+    "choices": [
+      "歴史",
+      "化学の",
+      "目標",
+      "建築家"
+    ],
+    "answer": "歴史"
+  },
+  {
+    "question": "host",
+    "word": "host",
+    "choices": [
+      "優れた",
+      "確かな",
+      "好奇心の強い",
+      "主催者・司会者"
+    ],
+    "answer": "主催者・司会者"
+  },
+  {
+    "question": "however",
+    "word": "however",
+    "choices": [
+      "一人で",
+      "電気",
+      "感情",
+      "しかしながら"
+    ],
+    "answer": "しかしながら"
+  },
+  {
+    "question": "huge",
+    "word": "huge",
+    "choices": [
+      "経歴・職業",
+      "呼吸する",
+      "ついに",
+      "巨大な"
+    ],
+    "answer": "巨大な"
+  },
+  {
+    "question": "human",
+    "word": "human",
+    "choices": [
+      "発展させる・開発する",
+      "人間の",
+      "意思疎通する",
+      "確かな"
+    ],
+    "answer": "人間の"
+  },
+  {
+    "question": "ideal",
+    "word": "ideal",
+    "choices": [
+      "記事",
+      "理想の",
+      "競争",
+      "広告"
+    ],
+    "answer": "理想の"
+  },
+  {
+    "question": "identify",
+    "word": "identify",
+    "choices": [
+      "独立した",
+      "橋",
+      "申し込む・当てはまる",
+      "識別する"
+    ],
+    "answer": "識別する"
+  },
+  {
+    "question": "image",
+    "word": "image",
+    "choices": [
+      "映像・印象",
+      "実際の",
+      "達成する",
+      "ほとんど"
+    ],
+    "answer": "映像・印象"
+  },
+  {
+    "question": "immediately",
+    "word": "immediately",
+    "choices": [
+      "目に見えない",
+      "眠って",
+      "すぐに",
+      "いらいらした"
+    ],
+    "answer": "すぐに"
+  },
+  {
+    "question": "improve",
+    "word": "improve",
+    "choices": [
+      "改善する",
+      "優れた",
+      "巨大な",
+      "ついに"
+    ],
+    "answer": "改善する"
+  },
+  {
+    "question": "include",
+    "word": "include",
+    "choices": [
+      "習慣",
+      "謝る",
+      "含む",
+      "独立した"
+    ],
+    "answer": "含む"
+  },
+  {
+    "question": "increase",
+    "word": "increase",
+    "choices": [
+      "増える",
+      "実験",
+      "効果的な",
+      "態度"
+    ],
+    "answer": "増える"
+  },
+  {
+    "question": "independent",
+    "word": "independent",
+    "choices": [
+      "競争",
+      "広告",
+      "独立した",
+      "影響を与える"
+    ],
+    "answer": "独立した"
+  },
+  {
+    "question": "influence",
+    "word": "influence",
+    "choices": [
+      "外国人",
+      "目が覚めて",
+      "申請・アプリ",
+      "影響"
+    ],
+    "answer": "影響"
+  },
+  {
+    "question": "inform",
+    "word": "inform",
+    "choices": [
+      "犯罪",
+      "集中する",
+      "広告",
+      "知らせる"
+    ],
+    "answer": "知らせる"
+  },
+  {
+    "question": "instead",
+    "word": "instead",
+    "choices": [
+      "下に",
+      "代わりに",
+      "文化",
+      "含む"
+    ],
+    "answer": "代わりに"
+  },
+  {
+    "question": "instrument",
+    "word": "instrument",
+    "choices": [
+      "いらいらした",
+      "犯罪",
+      "有名な",
+      "器具・楽器"
+    ],
+    "answer": "器具・楽器"
+  },
+  {
+    "question": "invent",
+    "word": "invent",
+    "choices": [
+      "困難",
+      "公平な",
+      "発明する",
+      "不平を言う"
+    ],
+    "answer": "発明する"
+  },
+  {
+    "question": "invisible",
+    "word": "invisible",
+    "choices": [
+      "呼吸する",
+      "目に見えない",
+      "人間の",
+      "欠点・過失"
+    ],
+    "answer": "目に見えない"
+  },
+  {
+    "question": "involve",
+    "word": "involve",
+    "choices": [
+      "飾る",
+      "関与させる・伴う",
+      "自由",
+      "歴史上重要な"
+    ],
+    "answer": "関与させる・伴う"
+  }
+]
