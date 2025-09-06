@@ -1,24 +1,280 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ダンジョン英会話</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#2563eb">
+  <title>TOEIC600 単語クイズ（10問・ランダム・正解音ピンポン）</title>
+  <style>
+    :root{
+      --fg:#0f172a; --bg:#f8fafc; --card:#ffffff; --muted:#64748b; --ok:#16a34a; --ng:#dc2626; --bd:#e2e8f0; --accent:#2563eb;
+    }
+    *{box-sizing:border-box; -webkit-tap-highlight-color: transparent;}
+    html,body{height:100%}
+    body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; background:var(--bg); color:var(--fg);}
+    .wrap{max-width:780px; margin:0 auto; padding:16px; padding-bottom: env(safe-area-inset-bottom, 16px);}
+    .card{background:#fff; border:1px solid var(--bd); border-radius:16px; padding:18px; box-shadow:0 8px 20px rgba(2,6,23,.06)}
+    h1{margin:0 0 6px; font-size:clamp(18px, 2.4vw, 24px);}
+    .muted{color:var(--muted); font-size:13px}
+    .qbox{margin-top:14px}
+    .qnum{font-size:12px; color:var(--muted)}
+    .question{font-size:clamp(20px, 4.8vw, 26px); font-weight:700; margin:8px 0 12px; line-height:1.3}
+    .options{display:grid; gap:10px}
+    .option{
+      padding:14px; border:1.5px solid var(--bd); border-radius:14px; background:#fff; cursor:pointer; text-align:left;
+      font-size:clamp(16px, 4vw, 18px); line-height:1.3; touch-action:manipulation;
+    }
+    .option:active{transform:scale(.995)}
+    .option:disabled{opacity:.85; cursor:not-allowed}
+    .option.correct{border-color:var(--ok); background:#f0fdf4}
+    .option.wrong{border-color:var(--ng); background:#fef2f2}
+    .row{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
+    .btn{
+      padding:12px 16px; border-radius:12px; border:1px solid var(--bd); background:#f1f5f9; cursor:pointer; font-size:16px; touch-action:manipulation;
+    }
+    .btn:active{transform:scale(.99)}
+    .btn.primary{background:var(--accent); border-color:var(--accent); color:#fff}
+    .status{min-height:28px; display:flex; align-items:center; gap:8px; margin-top:10px; font-weight:700}
+    .good{color:var(--ok)}
+    .bad{color:var(--ng)}
+    .progress{height:10px; background:#e2e8f0; border-radius:999px; overflow:hidden; margin-top:10px}
+    .bar{height:100%; background:linear-gradient(90deg,#3b82f6,#06b6d4); width:0%}
+    .score{font-size:16px}
+    .center{display:flex; justify-content:center; gap:10px; flex-wrap:wrap}
+    @media (max-width:640px){
+      .wrap{padding:14px}
+      .btn{flex:1}
+    }
+  </style>
 </head>
 <body>
-  <div id="game">
-    <h1>ダンジョン英会話</h1>
-    <div id="status">
-      <div>あなたのHP: <span id="player-hp">100</span></div>
-      <div>モンスターのHP: <span id="monster-hp">100</span></div>
+  <div class="wrap">
+    <div class="card">
+      <h1>TOEIC600 単語クイズ</h1>
+      <div class="muted">120語以上から <b>ランダム10問</b>／正解で「正解！」表示＋<b>ピンポン音</b></div>
+
+      <div class="progress"><div class="bar" id="bar"></div></div>
+
+      <div class="qbox">
+        <div class="row" style="justify-content:space-between">
+          <div class="qnum" id="qnum">1 / 10</div>
+          <div class="score" id="score">正解数: 0</div>
+        </div>
+        <div class="question" id="question"></div>
+        <div class="options" id="options"></div>
+        <div class="status" id="status"></div>
+        <div class="row center" style="margin-top:10px">
+          <button class="btn" id="retryWrong">誤答のみ再挑戦</button>
+          <button class="btn" id="restart">再挑戦（新しい10問）</button>
+          <button class="btn primary" id="nextBtn" disabled>次へ</button>
+        </div>
+      </div>
     </div>
-    <div id="question-container">
-      <p id="question">問題がここに出ます</p>
-      <div id="choices"></div>
-    </div>
-    <div id="result"></div>
   </div>
-  <script src="script.js"></script>
+
+  <script>
+    // ---- 高めの「ピンポン」音（2音：高→さらに高） ----
+    // - iOS対策：初回タップでAudioContextを作成
+    let _audioCtx = null;
+    function getAudioCtx(){
+      const Ctx = window.AudioContext || window.webkitAudioContext;
+      if(!_audioCtx) _audioCtx = new Ctx();
+      // 一部ブラウザは一時停止状態になるので resume を試す
+      if(_audioCtx.state === 'suspended') {_audioCtx.resume().catch(()=>{});}
+      return _audioCtx;
+    }
+    function playCorrectSound(){
+      try{
+        const ctx = getAudioCtx();
+        const t0 = ctx.currentTime + 0.01;
+        const g = ctx.createGain();
+        g.connect(ctx.destination);
+        // 1音目（P I N）
+        const o1 = ctx.createOscillator();
+        o1.type = 'sine';
+        o1.frequency.setValueAtTime(1400, t0); // 高め
+        const g1 = ctx.createGain();
+        g1.gain.setValueAtTime(0.0001, t0);
+        g1.gain.exponentialRampToValueAtTime(0.28, t0 + 0.03);
+        g1.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.15);
+        o1.connect(g1); g1.connect(g);
+        o1.start(t0); o1.stop(t0 + 0.16);
+        // 2音目（P O N）少し高く
+        const o2 = ctx.createOscillator();
+        o2.type = 'sine';
+        const t1 = t0 + 0.14;
+        o2.frequency.setValueAtTime(1700, t1);
+        const g2 = ctx.createGain();
+        g2.gain.setValueAtTime(0.0001, t1);
+        g2.gain.exponentialRampToValueAtTime(0.3, t1 + 0.03);
+        g2.gain.exponentialRampToValueAtTime(0.0001, t1 + 0.18);
+        o2.connect(g2); g2.connect(g);
+        o2.start(t1); o2.stop(t1 + 0.2);
+      }catch(e){/* ignore */}
+    }
+
+    // ---- 語彙プール（120+） ----
+    const BANK = [
+      // Office/Business
+      {en:'company',ja:'会社'},{en:'employee',ja:'従業員'},{en:'manager',ja:'管理者'},{en:'staff',ja:'職員'},
+      {en:'department',ja:'部門'},{en:'branch',ja:'支店'},{en:'headquarters',ja:'本社'},{en:'client',ja:'取引先'},
+      {en:'customer',ja:'顧客'},{en:'vendor',ja:'仕入先'},{en:'supplier',ja:'供給業者'},{en:'colleague',ja:'同僚'},
+      {en:'applicant',ja:'応募者'},{en:'resume',ja:'履歴書'},{en:'interview',ja:'面接'},{en:'training',ja:'研修'},
+      {en:'promotion',ja:'昇進'},{en:'transfer',ja:'異動'},{en:'salary',ja:'給与'},{en:'bonus',ja:'賞与'},
+      {en:'benefit',ja:'福利厚生'},{en:'overtime',ja:'残業'},{en:'shift',ja:'シフト'},{en:'vacation',ja:'休暇'},
+      {en:'policy',ja:'方針'},{en:'approval',ja:'承認'},{en:'announcement',ja:'発表'},{en:'budget',ja:'予算'},
+      {en:'expense',ja:'経費'},{en:'revenue',ja:'収益'},{en:'profit',ja:'利益'},{en:'loss',ja:'損失'},
+      {en:'invoice',ja:'請求書'},{en:'receipt',ja:'領収書'},{en:'quotation',ja:'見積もり'},{en:'order',ja:'注文'},
+      {en:'purchase',ja:'購入'},{en:'payment',ja:'支払い'},{en:'delivery',ja:'配達'},{en:'shipment',ja:'出荷'},
+      {en:'inventory',ja:'在庫'},{en:'warehouse',ja:'倉庫'},{en:'equipment',ja:'設備'},{en:'facility',ja:'施設'},
+      {en:'maintenance',ja:'保守'},{en:'repair',ja:'修理'},{en:'replacement',ja:'交換'},{en:'installation',ja:'取り付け'},
+      {en:'quality',ja:'品質'},{en:'safety',ja:'安全'},{en:'issue',ja:'問題'},{en:'solution',ja:'解決策'},
+      {en:'improvement',ja:'改善'},{en:'increase',ja:'増加'},{en:'decrease',ja:'減少'},{en:'deadline',ja:'締め切り'},
+      {en:'schedule',ja:'予定'},{en:'appointment',ja:'予約'},{en:'meeting',ja:'会議'},{en:'conference',ja:'会議（大規模）'},
+      {en:'seminar',ja:'セミナー'},{en:'workshop',ja:'ワークショップ'},{en:'agenda',ja:'議題'},{en:'minutes',ja:'議事録'},
+      {en:'project',ja:'企画'},{en:'task',ja:'仕事／課題'},{en:'assignment',ja:'任務'},{en:'document',ja:'文書'},
+      {en:'record',ja:'記録'},{en:'printer',ja:'プリンター'},{en:'supplies',ja:'用品'},{en:'balance',ja:'残高'},
+      {en:'bank',ja:'銀行'},{en:'account',ja:'口座'},{en:'contract',ja:'契約'},{en:'agreement',ja:'合意'},
+      {en:'proposal',ja:'提案'},{en:'offer',ja:'申し出'},{en:'deal',ja:'取引'},{en:'negotiation',ja:'交渉'},
+      {en:'insurance',ja:'保険'},{en:'guideline',ja:'指針'},{en:'survey',ja:'調査／アンケート'},{en:'feedback',ja:'意見／評価'},
+      {en:'brochure',ja:'パンフレット'},{en:'poster',ja:'ポスター'},{en:'stationery',ja:'文房具'},{en:'office supplies',ja:'事務用品'},
+      // Travel/Hotel/Shopping
+      {en:'airport',ja:'空港'},{en:'flight',ja:'便'},{en:'boarding pass',ja:'搭乗券'},{en:'gate',ja:'搭乗口'},
+      {en:'terminal',ja:'ターミナル'},{en:'baggage',ja:'手荷物'},{en:'check-in',ja:'搭乗手続き'},{en:'reservation',ja:'予約'},
+      {en:'cancel',ja:'取り消す'},{en:'delay',ja:'遅延'},{en:'fare',ja:'運賃'},{en:'route',ja:'経路'},
+      {en:'platform',ja:'ホーム'},{en:'subway',ja:'地下鉄'},{en:'train',ja:'電車'},{en:'ticket',ja:'切符'},
+      {en:'round trip',ja:'往復'},{en:'one-way',ja:'片道'},{en:'passport',ja:'パスポート'},{en:'customs',ja:'税関'},
+      {en:'immigration',ja:'入国審査'},{en:'hotel',ja:'ホテル'},{en:'reception',ja:'受付'},{en:'front desk',ja:'フロント'},
+      {en:'lobby',ja:'ロビー'},{en:'checkout',ja:'チェックアウト'},{en:'amenity',ja:'アメニティ'},{en:'single room',ja:'シングルルーム'},
+      {en:'double room',ja:'ダブルルーム'},{en:'housekeeping',ja:'清掃係'},{en:'room service',ja:'ルームサービス'},
+      {en:'store',ja:'店'},{en:'cashier',ja:'レジ係'},{en:'clerk',ja:'店員'},{en:'price',ja:'価格'},
+      {en:'discount',ja:'割引'},{en:'sale',ja:'セール'},{en:'coupon',ja:'クーポン'},{en:'warranty',ja:'保証'},
+      {en:'package',ja:'小包'},{en:'delivery fee',ja:'配送料'},{en:'available',ja:'利用可能な'},{en:'out of stock',ja:'在庫切れ'},
+      {en:'feature',ja:'機能'},{en:'brand',ja:'ブランド'},{en:'size',ja:'サイズ'},{en:'color',ja:'色'},
+      // Verbs
+      {en:'apply',ja:'申し込む／適用する'},{en:'submit',ja:'提出する'},{en:'attach',ja:'添付する'},{en:'include',ja:'含む'},
+      {en:'provide',ja:'提供する'},{en:'require',ja:'要求する'},{en:'request',ja:'依頼する'},{en:'recommend',ja:'推薦する'},
+      {en:'advise',ja:'助言する'},{en:'confirm',ja:'確認する'},{en:'notify',ja:'通知する'},{en:'inform',ja:'知らせる'},
+      {en:'announce',ja:'発表する'},{en:'hire',ja:'雇う'},{en:'train',ja:'訓練する'},{en:'attend',ja:'出席する'},
+      {en:'participate',ja:'参加する'},{en:'reschedule',ja:'日程を変更する'},{en:'arrange',ja:'手配する'},{en:'book',ja:'予約する'},
+      {en:'deliver',ja:'配達する'},{en:'ship',ja:'出荷する'},{en:'install',ja:'設置する'},{en:'repair',ja:'修理する'},
+      {en:'replace',ja:'交換する'},{en:'return',ja:'返品する／戻る'},{en:'improve',ja:'改善する'},{en:'increase',ja:'増やす'},
+      {en:'reduce',ja:'減らす'},{en:'save',ja:'節約する／保存する'},{en:'spend',ja:'費やす'},{en:'charge',ja:'請求する'},
+      {en:'pay',ja:'支払う'},{en:'afford',ja:'（金銭的に）余裕がある'},{en:'earn',ja:'稼ぐ'},{en:'launch',ja:'発売する／開始する'},
+      {en:'use',ja:'使う'},{en:'need',ja:'必要とする'},{en:'find',ja:'見つける'},{en:'check',ja:'確認する'},
+      {en:'choose',ja:'選ぶ'},{en:'select',ja:'選択する'},{en:'prefer',ja:'好む'},{en:'decide',ja:'決める'},
+      {en:'expect',ja:'予期する'},{en:'plan',ja:'計画する'},{en:'prepare',ja:'準備する'},{en:'allow',ja:'許可する'},
+      {en:'prohibit',ja:'禁止する'},{en:'follow',ja:'従う'},{en:'avoid',ja:'避ける'},{en:'handle',ja:'対処する'},
+      {en:'support',ja:'支援する'},{en:'manage',ja:'管理する'},{en:'produce',ja:'生産する'},{en:'design',ja:'設計する'}
+    ];
+
+    // ---- Utils ----
+    const $ = (s)=>document.querySelector(s);
+    const $$ = (s)=>Array.from(document.querySelectorAll(s));
+    const shuffle = (arr)=>arr.map(v=>[Math.random(),v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
+
+    // ---- State ----
+    let POOL = []; // 10 questions per session
+    let idx = 0, score = 0, wrongs = [];
+
+    function newSession(){
+      POOL = shuffle(BANK).slice(0,10);
+      idx = 0; score = 0; wrongs = [];
+      render();
+    }
+
+    function updateProgress(){
+      $('#qnum').textContent = (idx+1) + ' / ' + POOL.length;
+      $('#score').textContent = '正解数: ' + score;
+      const pct = Math.round((idx/POOL.length)*100);
+      $('#bar').style.width = pct + '%';
+    }
+
+    function makeOptions(correct){
+      const others = shuffle(BANK.filter(v=>v.en!==correct.en)).slice(0,3).map(v=>v.ja);
+      return shuffle([correct.ja, ...others]);
+    }
+
+    function render(){
+      const cur = POOL[idx];
+      $('#question').textContent = `Q${idx+1}. 「${cur.en}」の意味は？`;
+      $('#status').textContent = '';
+      $('#status').className = 'status';
+
+      const opts = makeOptions(cur);
+      const box = $('#options');
+      box.innerHTML = '';
+      opts.forEach(text=>{
+        const btn = document.createElement('button');
+        btn.className = 'option';
+        btn.textContent = text;
+        btn.onclick = ()=>select(text, cur.ja, btn);
+        box.appendChild(btn);
+      });
+
+      $('#nextBtn').disabled = true;
+      updateProgress();
+    }
+
+    function select(choice, answer, btn){
+      if($$('.option').some(b=>b.disabled)) return; // once
+      $$('.option').forEach(b=>b.disabled = true);
+
+      if(choice === answer){
+        btn.classList.add('correct');
+        $('#status').textContent = '正解！';
+        $('#status').classList.add('good');
+        playCorrectSound();
+        score++;
+      }else{
+        btn.classList.add('wrong');
+        $('#status').textContent = `不正解… 正解は「${answer}」`;
+        $('#status').classList.add('bad');
+        wrongs.push(POOL[idx]);
+      }
+      $('#nextBtn').disabled = false;
+    }
+
+    function next(){
+      if(idx < POOL.length - 1){
+        idx++;
+        render();
+      }else{
+        finish();
+      }
+    }
+
+    function finish(){
+      $('#question').textContent = '終了！';
+      const rate = Math.round((score/POOL.length)*100);
+      $('#options').innerHTML = `<div>スコア：<b>${score} / ${POOL.length}（${rate}%）</b></div>`;
+      $('#status').textContent = wrongs.length ? `誤答：${wrongs.length}問（「誤答のみ再挑戦」または「再挑戦」）` : '全問正解！素晴らしい！';
+      $('#nextBtn').disabled = true;
+    }
+
+    function retryOnlyWrong(){
+      if(!wrongs.length){ alert('誤答がありません！'); return; }
+      POOL = shuffle(wrongs).slice(0, Math.min(10, wrongs.length));
+      idx = 0; score = 0; wrongs = [];
+      render();
+    }
+
+    // Events
+    $('#nextBtn').addEventListener('click', next);
+    $('#retryWrong').addEventListener('click', retryOnlyWrong);
+    $('#restart').addEventListener('click', newSession);
+    window.addEventListener('keydown', (e)=>{
+      if(e.key>='1' && e.key<='4'){
+        const i = Number(e.key)-1;
+        const nodes = $$('.option');
+        if(nodes[i]) nodes[i].click();
+      }else if(e.key==='Enter' && !$('#nextBtn').disabled){
+        next();
+      }
+    });
+
+    // 初回セッション開始
+    newSession();
+  </script>
 </body>
 </html>
