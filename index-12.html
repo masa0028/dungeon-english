@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>TOEIC クイズ（URL表示削除版）</title>
+  <style>
+    body{margin:0;background:#0b1020;color:#e5e7eb;font-family:system-ui}
+    .wrap{max-width:960px;margin:0 auto;padding:14px}
+    .question{font-size:22px;font-weight:700;margin-top:12px}
+    .options{display:grid;gap:10px;margin-top:12px}
+    .option{padding:12px;border:1px solid #333;border-radius:8px;background:#1a1f2c;color:#fff;cursor:pointer}
+    .option.correct{border-color:#16a34a;background:#0d1f17}
+    .option.wrong{border-color:#b91c1c;background:#1a0f12}
+    .status{margin-top:10px;min-height:24px;font-weight:700}
+    .good{color:#86efac}
+    .bad{color:#fca5a5}
+    .controls{margin-top:10px;display:flex;gap:10px}
+    .btn{padding:10px 14px;border-radius:8px;background:#2563eb;color:#fff;border:none;cursor:pointer}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <h2>TOEIC 単語クイズ</h2>
+  <div class="question" id="question">Loading…</div>
+  <div class="options" id="options"></div>
+  <div class="status" id="status"></div>
+  <div class="controls">
+    <button class="btn" id="restart">再挑戦</button>
+    <button class="btn" id="nextBtn" disabled>次へ</button>
+  </div>
+</div>
+<script>
+// ====== URL表示削除 ======
+window.addEventListener('DOMContentLoaded', () => {
+  const URL_TEXT = 'https://masa0028.github.io/dungeon-english/';
+  document.querySelectorAll(`a[href="${URL_TEXT}"]`).forEach(el => el.remove());
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  let n; const hits=[];
+  while((n=walker.nextNode())) if(n.nodeValue.includes(URL_TEXT)) hits.push(n);
+  hits.forEach(t=>{ t.nodeValue=t.nodeValue.replaceAll(URL_TEXT,''); });
+});
+
+// ====== WebAudio ピンポン ======
+let _ctx=null; function ctx(){const C=window.AudioContext||window.webkitAudioContext; if(!_ctx)_ctx=new C(); if(_ctx.state==='suspended'){_ctx.resume().catch(()=>{});} return _ctx;}
+function sfxPinpon(){try{const c=ctx(),t0=c.currentTime+.01,m=c.createGain();m.gain.value=.6;m.connect(c.destination);
+const o1=c.createOscillator(),g1=c.createGain();o1.type='sine';o1.frequency.setValueAtTime(1500,t0);
+g1.gain.setValueAtTime(.0001,t0);g1.gain.exponentialRampToValueAtTime(.35,t0+.02);g1.gain.exponentialRampToValueAtTime(.0001,t0+.15);
+o1.connect(g1);g1.connect(m);o1.start(t0);o1.stop(t0+.16);}catch(e){}}
+
+// ====== 単語リスト（一部抜粋：実際は120語以上推奨） ======
+const BANK=[
+ {en:'company',ja:'会社'},{en:'employee',ja:'従業員'},{en:'manager',ja:'管理者'},{en:'staff',ja:'職員'},
+ {en:'department',ja:'部門'},{en:'branch',ja:'支店'},{en:'client',ja:'取引先'},{en:'customer',ja:'顧客'},
+ {en:'bonus',ja:'賞与'},{en:'budget',ja:'予算'},{en:'profit',ja:'利益'},{en:'loss',ja:'損失'},
+ {en:'invoice',ja:'請求書'},{en:'receipt',ja:'領収書'},{en:'order',ja:'注文'},{en:'purchase',ja:'購入'},
+ {en:'meeting',ja:'会議'},{en:'conference',ja:'会議（大規模）'},{en:'agenda',ja:'議題'},{en:'minutes',ja:'議事録'},
+ {en:'airport',ja:'空港'},{en:'flight',ja:'便'},{en:'baggage',ja:'手荷物'},{en:'reservation',ja:'予約'},
+ {en:'hotel',ja:'ホテル'},{en:'lobby',ja:'ロビー'},{en:'checkout',ja:'チェックアウト'},{en:'amenity',ja:'アメニティ'},
+ {en:'store',ja:'店'},{en:'cashier',ja:'レジ係'},{en:'clerk',ja:'店員'},{en:'discount',ja:'割引'},
+ {en:'coupon',ja:'クーポン'},{en:'warranty',ja:'保証'},{en:'apply',ja:'申し込む'},{en:'submit',ja:'提出する'},
+ {en:'confirm',ja:'確認する'},{en:'notify',ja:'通知する'},{en:'attend',ja:'出席する'},{en:'arrange',ja:'手配する'},
+ {en:'deliver',ja:'配達する'},{en:'ship',ja:'出荷する'},{en:'install',ja:'設置する'},{en:'repair',ja:'修理する'},
+ {en:'replace',ja:'交換する'},{en:'return',ja:'返品する'},{en:'improve',ja:'改善する'},{en:'increase',ja:'増やす'},
+ {en:'reduce',ja:'減らす'},{en:'save',ja:'節約する'},{en:'spend',ja:'費やす'},{en:'launch',ja:'発売する'}
+];
+
+let idx=0,POOL=[],score=0;
+const $=s=>document.querySelector(s);
+const shuffle=a=>a.map(v=>[Math.random(),v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
+
+function newSession(){POOL=shuffle(BANK).slice(0,10);idx=0;score=0;render();}
+function render(){const cur=POOL[idx];$('#question').textContent=`Q${idx+1}. 「${cur.en}」の意味は？`;$('#status').textContent='';const opts=shuffle([cur.ja,...shuffle(BANK.filter(v=>v.en!==cur.en)).slice(0,3).map(v=>v.ja)]);const box=$('#options');box.innerHTML='';opts.forEach(t=>{const b=document.createElement('button');b.className='option';b.textContent=t;b.onclick=()=>select(t,cur.ja,b);box.appendChild(b);});$('#nextBtn').disabled=true;}
+function select(choice,answer,btn){if([...document.querySelectorAll('.option')].some(b=>b.disabled))return;document.querySelectorAll('.option').forEach(b=>b.disabled=true);if(choice===answer){btn.classList.add('correct');$('#status').textContent='正解！';$('#status').classList.add('good');sfxPinpon();score++;}else{btn.classList.add('wrong');$('#status').textContent=`不正解… 正解は「${answer}」`;$('#status').classList.add('bad');}$('#nextBtn').disabled=false;}
+function next(){if(idx<POOL.length-1){idx++;render();}else finish();}
+function finish(){$('#question').textContent='クリア！';$('#options').innerHTML=`<div>スコア：${score}/${POOL.length}</div>`;$('#nextBtn').disabled=true;}
+$('#nextBtn').addEventListener('click',next);$('#restart').addEventListener('click',newSession);newSession();
+</script>
+</body>
+</html>
